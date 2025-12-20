@@ -1,11 +1,13 @@
 # store-current-session
 
 Find in the /data/ folder the session files for the week.
+
 - The session file named like this: Garage 61 - [session kind] - Export - [date time].csv
 - the fastest lap and of that session named like this: Garage 61 - Lonn Ponn - [car name] - [circuit name] - [lap time] - [code].csv
+- Use the 'Started at' date and timecolumn and read the first row of the session file to get the date and time of the session.
+- Name the session file like this: [date time] - [circuit name] - [session kind].md
 
-If you don't find the session files, ask the user to export the session files.
-
+If you don't find the session data files, ask the user to export the session files. 😌
 
 > **Focus**: [What Master Lonn is working on] > **Goal**: [Specific measurable goal]
 
@@ -21,6 +23,7 @@ If you don't find the session files, ask the user to export the session files.
 
 **Master Lonn's Take**:
 "[Quote what Master Lonn said about the session]"
+If he has not said anything, ask him what he thought of the session first before you continue.
 
 **Little Wan's Take**:
 "[Your conversational reaction - validate his feeling, share empathy, or hype him up]"
@@ -90,7 +93,6 @@ If you don't find the session files, ask the user to export the session files.
 ---
 
 _ a quote like "May the Downforce Be With You."_ 🏎️💨
-
 
 ## Example
 

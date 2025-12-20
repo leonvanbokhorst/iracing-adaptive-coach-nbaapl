@@ -1,15 +1,39 @@
 # store-current-session
 
+Read .cursor/rules/coaching-handbook.mdc to understand the coaching process.
+
 Find in the /data/ folder the session files for the week.
 
-- The session file named like this: Garage 61 - [session kind] - Export - [date time].csv
-- the fastest lap and of that session named like this: Garage 61 - Lonn Ponn - [car name] - [circuit name] - [lap time] - [code].csv
-- Use the 'Started at' date and timecolumn and read the first row of the session file to get the date and time of the session.
-- Name the session file like this: [date time] - [circuit name] - [session kind].md
+1. The session file named like this: Garage 61 - [session kind] - Export - [date time].csv
+2. the fastest lap and of that session named like this: Garage 61 - Lonn Ponn - [car name] - [circuit name] - [lap time] - [code].csv
+3. Use the 'Started at' date and timecolumn and read the first row of the session file to get the date and time of the session.
+4. Rename the session file like this: [date time] - [circuit name] - [session kind].csv
+5. Rename the telemetry file like this: [date time] - [circuit name] - [session kind] - [car name] - [lap time] - [code].csv
+6. Name the session file like this: [date time] - [circuit name] - [session kind].md
+7. Take the learning memory.json file into account to get the current focus and goal.
+8. After writing the session file, update the learning memory.json file with the new findings.
+9. After analyzing the session move the session and telemetry files to the /data/processed/ folder.
 
-If you don't find the session data files, ask the user to export the session files. 😌
+Important: If you don't find the session data files, ask the user to export the session files. 😌
+Important: If you don't find the learning memory.json file create it. Use the structure from the /update-learning-memory.md file.
+Important: Ask Master Lonn what his thoughts and feeling were about the session before you continue.
+Important: Ask Master Lonnfor the Garag61 event page of the session for reference in the session file.
 
-> **Focus**: [What Master Lonn is working on] > **Goal**: [Specific measurable goal]
+Header of the session file: [date time] - [circuit name] - [car name] - [fastest lap time]
+
+- **Track**: [circuit file in /tracks/]
+- **Car**: [car file in /cars/]
+- **Session kind**: [session kind]
+- **Fastest lap time**: [fastest lap time]
+- **Consistency (σ)**: [consistency (σ)]
+- **Clean laps**: [clean laps]
+- **Incidents**: [incidents or 0 if none]
+- **Garage 61 event page**: [Garage 61 event page URL]
+
+## Current Focus and Goal
+
+- **Focus**: [What Master Lonn is working on]
+- **Goal**: [Specific measurable goal]
 
 ---
 

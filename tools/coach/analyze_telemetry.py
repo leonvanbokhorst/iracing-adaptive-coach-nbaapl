@@ -38,29 +38,35 @@ def analyze_telemetry_facts(csv_path):
     if not all(col in df.columns for col in required_cols):
         return {"error": "Not a telemetry file. Missing required columns."}
     
+    # Helper to safely get scalar float from potential NaN
+    def safe_float(val):
+        if pd.isna(val):
+            return 0.0
+        return float(val)
+
     # 1. Speed Analysis
-    top_speed = float(df['Speed'].max())
+    top_speed = safe_float(df['Speed'].max())
     # Find local minima for corner speeds (simple approach: speed < threshold and is local min)
     # Using a rolling window to smooth noise could be good, but keeping it simple for now
     
     # 2. Braking Analysis
     braking_zones = df[df['Brake'] > 5] # Brake pressure > 5%
-    max_brake_pressure = float(df['Brake'].max()) if not braking_zones.empty else 0.0
-    avg_brake_pressure = float(braking_zones['Brake'].mean()) if not braking_zones.empty else 0.0
+    max_brake_pressure = safe_float(braking_zones['Brake'].max()) if not braking_zones.empty else 0.0
+    avg_brake_pressure = safe_float(braking_zones['Brake'].mean()) if not braking_zones.empty else 0.0
     
     # Max Deceleration (LongAccel is usually negative for braking)
     # Some sims use positive for braking, but typically it's negative Gs.
     # We'll take the minimum value (most negative)
-    max_braking_g = float(df['LongAccel'].min())
+    max_braking_g = safe_float(df['LongAccel'].min())
     
     # 3. Throttle Analysis
     throttle_zones = df[df['Throttle'] > 5]
-    avg_throttle = float(throttle_zones['Throttle'].mean()) if not throttle_zones.empty else 0.0
+    avg_throttle = safe_float(throttle_zones['Throttle'].mean()) if not throttle_zones.empty else 0.0
     
     # 4. Cornering Gs
     # Max Lateral G (absolute value)
-    max_lat_g = float(df['LatAccel'].abs().max())
-    avg_lat_g = float(df['LatAccel'].abs().mean())
+    max_lat_g = safe_float(df['LatAccel'].abs().max())
+    avg_lat_g = safe_float(df['LatAccel'].abs().mean())
     
     facts = {
         "speed": {
@@ -102,4 +108,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

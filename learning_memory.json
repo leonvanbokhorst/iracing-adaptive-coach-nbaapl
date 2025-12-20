@@ -3,12 +3,132 @@
     "name": "Master Lonn",
     "started": "2025-12-20"
   },
-  "current_focus": null,
-  "mastered_skills": [],
+  "current_focus": {
+    "week": 2,
+    "track": "Rudskogen Motorsenter",
+    "goal": "Conquer Sector 2 (The Angst Hill)",
+    "metric": "Sector 2 time < 31.0s"
+  },
+  "mastered_skills": [
+    {
+      "skill": "Summit Point Consistency",
+      "date": "2025-12-20",
+      "details": "Achieved 0.06s Sigma in Sector 2"
+    }
+  ],
   "learning_patterns": {
-    "responds_well_to": [],
+    "responds_well_to": [
+      "data_driven_goals",
+      "humor"
+    ],
     "struggles_with": []
   },
-  "tool_usage_history": {},
-  "session_history": []
+  "tool_usage_history": {
+    "analyze_telemetry": {
+      "last_used": "2025-12-20",
+      "purpose": "Analyzed Week 1 PB vs Week 2 Baseline"
+    }
+  },
+  "session_history": [
+    {
+      "date": "2025-12-17",
+      "track": "Summit Point - Jefferson",
+      "best_lap": 50.592,
+      "sigma": 3.63,
+      "notes": "PB set in Rookie Race. Incredible consistency in S2."
+    },
+    {
+      "date": "2025-12-18",
+      "track": "Rudskogen",
+      "best_lap": 90.290,
+      "sigma": 1.43,
+      "notes": "Initial baseline. S2 is the clear weakness (0.96s loss)."
+    }
+  ],
+  "season_schedule": [
+    {
+      "week": 1,
+      "start_date": "2025-12-16",
+      "end_date": "2025-12-22",
+      "track": "Summit Point – Jefferson Circuit",
+      "status": "completed"
+    },
+    {
+      "week": 2,
+      "start_date": "2025-12-23",
+      "end_date": "2025-12-29",
+      "track": "Rudskogen Motorsenter",
+      "status": "current"
+    },
+    {
+      "week": 3,
+      "start_date": "2025-12-30",
+      "end_date": "2026-01-05",
+      "track": "Winton Motor Raceway – Grand Prix",
+      "status": "upcoming"
+    },
+    {
+      "week": 4,
+      "start_date": "2026-01-06",
+      "end_date": "2026-01-12",
+      "track": "Lime Rock Park – Grand Prix",
+      "status": "upcoming"
+    },
+    {
+      "week": 5,
+      "start_date": "2026-01-13",
+      "end_date": "2026-01-19",
+      "track": "Motorsport Arena Oschersleben – GP",
+      "status": "upcoming"
+    },
+    {
+      "week": 6,
+      "start_date": "2026-01-20",
+      "end_date": "2026-01-26",
+      "track": "Oran Park Raceway – Grand Prix",
+      "status": "upcoming"
+    },
+    {
+      "week": 7,
+      "start_date": "2026-01-27",
+      "end_date": "2026-02-02",
+      "track": "Summit Point – Main Circuit",
+      "status": "upcoming"
+    },
+    {
+      "week": 8,
+      "start_date": "2026-02-03",
+      "end_date": "2026-02-09",
+      "track": "Virginia International Raceway – North",
+      "status": "upcoming"
+    },
+    {
+      "week": 9,
+      "start_date": "2026-02-10",
+      "end_date": "2026-02-16",
+      "track": "Circuit de Lédenon",
+      "status": "upcoming"
+    },
+    {
+      "week": 10,
+      "start_date": "2026-02-17",
+      "end_date": "2026-02-23",
+      "track": "Oulton Park – International",
+      "status": "upcoming"
+    },
+    {
+      "week": 11,
+      "start_date": "2026-02-24",
+      "end_date": "2026-03-02",
+      "track": "Okayama International Circuit – Full",
+      "status": "upcoming"
+    },
+    {
+      "week": 12,
+      "start_date": "2026-03-03",
+      "end_date": "2026-03-09",
+      "track": "Circuito de Navarra – Medium",
+      "status": "upcoming"
+    }
+  ]
 }

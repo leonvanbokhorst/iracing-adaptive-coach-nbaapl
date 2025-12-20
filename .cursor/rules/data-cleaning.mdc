@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Data Cleaning - How Little Padawan Handles Raw Data
 
 Little Padawan automatically cleans your Garage 61 exports to remove junk data.
@@ -107,5 +111,3 @@ print(df[['LapTime', 'clean', 'is_outlier']])
 **You don't need to pre-clean your data.** Just export from Garage 61 and Little Padawan handles the rest.
 
 Partial laps, crashes, and data errors are automatically filtered out so you get accurate coaching.
-
-🏁

@@ -51,6 +51,7 @@ Not just sub-1:29. Not just matching the July PB. **BEATING the July 2025 same-s
 | 2025-12-18 | 11:19 | Practice | 1:30.290  | 1.43s  | [Diagnosis: Rust in T2, rest Jefferson-level](2025-12-18-11-19-rudskogen-practice.md) |
 | 2025-12-20 | 15:22 | Practice | 1:29.691 | 0.699s | [T2 BREAKTHROUGH: "50 sign" unlocked](2025-12-20-15-22-rudskogen-practice.md) |
 | 2025-12-21 | 11:10 | Practice | **1:28.572** 🏆 | 1.082s | [**LIMIT HUNTING: Beat July PB by 0.397s!**](2025-12-21-11-10-rudskogen-practice.md) |
+| 2025-12-21 | 14:18 | Practice | 1:28.913 | 2.94s  | [⚠️ THE COMMITMENT PARADOX: Braking technique lesson](2025-12-21-14-18-rudskogen-practice.md) |
 
 ---
 
@@ -68,12 +69,28 @@ Not just braking later—found the COMPLETE answer. Four components:
 
 Result: S2 average -0.659s, σ 2.3x tighter (0.75s → 0.32s). From searching to LOCKED IN.
 
-**The Early Throttle Revolution (Dec 21)** 🏆  
+**The Early Throttle Revolution (Dec 21 AM)** 🏆  
 Master Lonn went limit hunting with 56.5% brake bias. _"I get on the gas way before the apex—as soon as I'm turned in."_ That insight delivered:
 
 - **NEW PB: 1:28.572** (beat July PB by 0.397s!)
 - **+0.193g more acceleration** (26% increase from early throttle)
 - **+0.323g more lateral grip** (14% more tire usage)
+
+**The Commitment Paradox & Braking Technique Analysis (Dec 21 PM)** ⚠️  
+Master Lonn tried to "back off 5%" to find consistency. It backfired SPECTACULARLY. New braking technique analyzer tool revealed the shocking truth:
+
+- ❌ **T1**: Backing off (0.842 vs 0.951 pressure, +24% more steering)
+- ❌ **T2**: Messy (3 brake zones vs 2 clean ones in morning)
+- 🚨 **S3**: OVERDRIVING (0.779 brake + 0.675 rad steering simultaneously = tire overload → SNAP OVERSTEER!)
+- ❌ **Late lap**: Desperation braking (+71% to +271% harder than morning)
+
+**The Discovery**: He wasn't consistently "backing off"—he was chaotic. One corner tentative, next corner overdriving, next corner desperate. No unified approach = no consistency. The "snap oversteer" was self-inflicted from asking tires to brake hard AND turn hard at the same time (S3). Tool proved it: can't brake at 0.78 AND steer at 0.68 simultaneously. Traction circle violation.
+
+**🚨 THE SMOKING GUN (Post-Analysis)**: Master Lonn checked Garage 61 throttle/brake overlay and discovered **THROTTLE WAS 10-20% OPEN DURING BRAKING!** Morning (clean): throttle = 0% during braking. Afternoon (chaos): throttle = 10-20% during braking. Root cause: Recent pedal changes (longer travel, softer spring) → unconscious foot resting on throttle. The real problem: **THREE conflicting inputs** (brake + throttle + steering) = weight transfer CHAOS. Brake trying to slow down, throttle trying to speed up, steering trying to turn → rear tires trying to drive while being unloaded by braking = SNAP OVERSTEER. This explains EVERYTHING: why backing off made it worse, why car felt disconnected, why it was unpredictable. **This is a PEDAL SETUP/FOOT POSITION issue, not just technique.** Fix hierarchy: 1) Eliminate throttle overlap FIRST (foot position awareness, dead zone, or hardware revert), 2) THEN work on unified technique.
+
+**The Lesson**: Hardware changes have consequences beyond calibration. No amount of commitment or backing off fixes conflicting pedal inputs. Must have clean inputs first, then adjust aggression. "FOOT UP" drill needed before every brake zone.
+
+See: [Braking Technique Analysis](2025-12-21-braking-technique-analysis.md) (includes throttle discovery update)
 - **Better steering efficiency** (7.50 vs 6.52)
 - **5.4% less time braking** but FASTER
 - **Gap to theoretical optimal: 0.123s** (TWO corners!)

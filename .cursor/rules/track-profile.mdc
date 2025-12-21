@@ -28,6 +28,8 @@ type: "road course" | "street circuit" | "oval" | "roval"
 - Official track website
 - YouTube onboards
 - User's personal notes from sessions
+- **Telemetry data** (for track map generation)
+- **Session analysis** (for sector definitions)
 
 ## 2. Profile Structure
 
@@ -161,14 +163,83 @@ If updating existing file:
 4. Enhance Character Notes with new insights
 5. Add car-specific section if racing new car
 
-## 5. Image Handling
+## 5. Track Map Generation
 
-Track maps should be saved to `tracks/images/[track-name]-map.png`
+### Using Telemetry Data
 
-If no map exists:
-- Mention it's needed
-- Provide placeholder in markdown
-- Link to iRacing or official track site for reference
+If you have a telemetry CSV file from the track:
+
+1. **Generate the map:**
+```bash
+uv run python tools/coach/generate_track_map.py path/to/telemetry.csv \
+  --output tracks/images/[track-name]-map.png \
+  --title "[Track Name]" \
+  --sectors [S1_END] [S2_END]
+```
+
+Example:
+```bash
+uv run python tools/coach/generate_track_map.py \
+  data/2025-12-20-rudskogen-telemetry.csv \
+  --output tracks/images/rudskogen-motorsenter-map.png \
+  --title "Rudskogen Motorsenter" \
+  --sectors 0.33 0.67
+```
+
+2. **Find sector splits:**
+- Check session analysis for sector percentages
+- S1 typically ends around 30-55% of lap
+- S2 typically ends around 60-80% of lap
+- Adjust based on natural corners/sections
+
+3. **Add to track file:**
+```markdown
+## Track Map
+
+<a href="images/[track-name]-map.png"><img src="images/[track-name]-map.png" alt="[Track Name] Map" width="70%"></a>
+```
+
+### Sector Definitions Table
+
+After generating the map, create the sector definitions table:
+
+```markdown
+## Sector Definitions (iRacing)
+
+| Sector | Approx Time | Corners | Key Challenge |
+|--------|-------------|---------|---------------|
+| **S1** | ~XXs (XX%) | [Corner range] | [Main challenge] |
+| **S2** | ~XXs (XX%) | [Corner range] | [Main challenge] |
+| **S3** | ~XXs (XX%) | [Corner range] | [Main challenge] |
+| **S4** | ~XXs (XX%) | [Corner range] | [Main challenge] |
+
+> **Note:** [Coaching tip about highest-variance sector or key insight]
+```
+
+**How to fill this table:**
+1. Get sector times from session analysis (e.g., S1: 26.27s)
+2. Calculate percentage of total lap time (e.g., 26.27s / 90.29s = 29%)
+3. Identify which corners are in each sector (from track knowledge)
+4. Note the main challenge (from session experience)
+5. Add coaching note about focus areas
+
+Example from Jefferson:
+```markdown
+| Sector | Approx Time | Corners | Key Challenge |
+|--------|-------------|---------|---------------|
+| **S1** | ~28s (55%) | T1-T3 complex → Downhill esses | Patience, smooth transitions |
+| **S2** | ~11s (22%) | T6 pinch point → tight left | Brake discipline, rotation |
+| **S3** | ~11s (22%) | Carousel back section → Finish | Constant steering rate |
+
+> **Note:** S1 is the longest sector. If your S1 variance (σ) is high, focus on the T1-T3 link-up.
+```
+
+### If No Telemetry Available
+
+If you don't have telemetry data yet:
+- Add placeholder: `## Track Map\n\n_Track map to be generated from telemetry data._`
+- Create basic sector table with estimates
+- Update after first session with actual data
 
 ## 6. Personal Notes Updates
 
@@ -195,9 +266,22 @@ Each visit gets its own dated subsection. Track evolution of understanding over 
 **Little Padawan**:
 1. Checks if `tracks/track-rudskogen-motorsenter.md` exists
 2. If exists: Adds Personal Notes from recent Week 02 sessions
-3. If new: Researches track, creates full profile
-4. Applies Jefferson Circuit style/structure
-5. Focuses on what Rudskogen TEACHES (in contrast to Jefferson)
+3. If new: 
+   - Researches track, creates full profile
+   - Generates track map from telemetry (if available)
+   - Creates sector definitions table from session data
+   - Applies Jefferson Circuit style/structure
+4. Focuses on what Rudskogen TEACHES (in contrast to Jefferson)
+
+**User**: "Create track map for Rudskogen"
+
+**Little Padawan**:
+1. Finds most recent telemetry CSV file
+2. Determines sector splits from session analysis
+3. Runs `generate_track_map.py` with correct parameters
+4. Saves to `tracks/images/rudskogen-motorsenter-map.png`
+5. Updates track profile with map reference
+6. Creates/updates sector definitions table
 
 **User**: "Create track dossier for Lime Rock"
 
@@ -227,8 +311,10 @@ Descriptor should be **memorable** and capture **essence**, not just a fact.
 After creating/updating track profile:
 1. Confirm file created/updated
 2. Summary of what was added
-3. Suggest Master Lonn reviews and adds personal touches
-4. Note if track map image is needed
+3. If map generated: Show map generation command used and result
+4. If sector table created: Confirm sector splits and times
+5. Suggest Master Lonn reviews and adds personal touches
+6. Note if track map or telemetry data is still needed
 
 ---
 

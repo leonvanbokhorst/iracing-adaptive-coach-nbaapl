@@ -30,7 +30,7 @@ _One driver's journey through Season 01 2026 - told one lap at a time._
 
 So here's the thing about coming back to a track after a year: your body remembers almost everything. Almost.
 
-Master Lonn rolled onto Rudskogen—a track he last raced in 2023 with a PB of **1:28.762**—and immediately felt... familiar. Sectors 1, 3, and 4? Like riding a bike. Muscle memory kicked in, consistency was Jefferson-level right away (σ = 0.22-0.40s).
+Master Lonn rolled onto [Rudskogen](tracks/track-rudskogen-motorsenter.md)—a track he last raced in 2025 with a PB of **1:28.762**—and immediately felt... familiar. Sectors 1, 3, and 4? Like riding a bike. Muscle memory kicked in, consistency was Jefferson-level right away (σ = 0.22-0.40s).
 
 But Turn 2? **That's where the year-long break was hiding.**
 
@@ -126,7 +126,7 @@ When asked how it felt:
 
 #### The Victory Lap
 
-**December 16 - First Multiplayer Race**:
+**December 16 - First Race**:
 
 **Qualifying**: 50.991s - **P3 on grid** (spun on lap 2)
 
@@ -183,10 +183,10 @@ Not frustrated. Not angry. **CONFIDENT.** After spinning, crashing, and pitting,
 **PBs Set**: 3 (practice, race, pole position)  
 **iRating**: 1238 → 1377 (+139 in 2 races) - Skill jump confirmed  
 **Mental Evolution**: Scared → Balanced → Flow → Champion → **Unbreakable**  
-**Flow State**: Discovered, proven under pressure, replicated in multiplayer  
+**Flow State**: Discovered, proven under pressure, replicated in racing  
 **Championship DNA**: Confirmed.
 
-**Status**: ✅ **Week 01 Complete** - Master Lonn conquered Jefferson with no reference points, unlocked flow state, won his first multiplayer race, and proved his resilience by podiuming after spinning, crashing, and pitting.
+**Status**: ✅ **Week 01 Complete** - Master Lonn conquered Jefferson with no reference points, unlocked flow state, won his first race, and proved his resilience by podiuming after spinning, crashing, and pitting.
 
 ---
 
@@ -195,12 +195,12 @@ Not frustrated. Not angry. **CONFIDENT.** After spinning, crashing, and pitting,
 ### 🏆 Biggest Wins
 
 - **Week 01 Mastery**: 51.438s → 50.592s (0.846s improvement in 6 days!)
-- **P1 VICTORY** in first multiplayer race - "Metronome city" 🥇
+- **P1 VICTORY** in first race - "Metronome city" 🥇
 - **P3 PODIUM** after spin/crash/pit - Mental resilience proven 🥉
 - **POLE POSITION** - 50.853s qualifying lap 👑
 - **iRating surge**: +139 in 2 races (1238 → 1377) - System recognizes skill jump
 - **Flow State Discovered**: "Easy flying" at 50.768s with σ = 0.36s ⭐
-- **Back-to-back podiums** in first two multiplayer races
+- **Back-to-back podiums** in first two races
 - Sub-51s achieved in both practice AND racing
 - **S2 weapon sector**: 0.056s σ in flow state = 56ms variance = robotic
 
@@ -251,21 +251,21 @@ Not frustrated. Not angry. **CONFIDENT.** After spinning, crashing, and pitting,
 
 ### 📈 Week 01 By The Numbers
 
-| Milestone             | Value                 | Notes                                       |
-| :-------------------- | :-------------------- | :------------------------------------------ |
-| **Starting Pace**     | 51.438s (Dec 11)      | Lost, new track, no reference points        |
-| **Finishing Pace**    | 50.592s (Dec 17)      | P3 podium after adversity                   |
-| **Total Improvement** | 0.846s (1.6% faster!) | In 6 days (11 sessions)                     |
-| **Podiums**           | 2 (P1 + P3)           | Back-to-back in first two multiplayer races |
-| **Best Practice**     | 50.985s (Dec 12)      | Sub-51 breakthrough by NOT overdriving      |
-| **Best AI Race**      | 50.768s (Dec 14)      | Flow state - σ = 0.36s "easy flying"        |
-| **Victory Lap**       | 50.913s (Dec 16)      | P1 win - σ = 0.70s "metronome city"         |
-| **Ultimate PB**       | 50.592s (Dec 17)      | Set on lap 3 while LEADING before spin      |
-| **Best Qualifying**   | 50.853s (Dec 17)      | Pole position! 👑                           |
-| **Flow Consistency**  | σ = 0.36s (Dec 14)    | Tightest consistency ever achieved          |
-| **S2 Precision**      | σ = 0.056s (flow)     | 56 milliseconds variance = robotic          |
-| **Theoretical Best**  | 50.416s (Dec 17)      | 99.7% efficiency achieved                   |
-| **Mental Growth**     | Scared → Unbreakable  | Championship DNA confirmed                  |
+| Milestone             | Value                 | Notes                                  |
+| :-------------------- | :-------------------- | :------------------------------------- |
+| **Starting Pace**     | 51.438s (Dec 11)      | Lost, new track, no reference points   |
+| **Finishing Pace**    | 50.592s (Dec 17)      | P3 podium after adversity              |
+| **Total Improvement** | 0.846s (1.6% faster!) | In 6 days (11 sessions)                |
+| **Podiums**           | 2 (P1 + P3)           | Back-to-back in first two races        |
+| **Best Practice**     | 50.985s (Dec 12)      | Sub-51 breakthrough by NOT overdriving |
+| **Best AI Race**      | 50.768s (Dec 14)      | Flow state - σ = 0.36s "easy flying"   |
+| **Victory Lap**       | 50.913s (Dec 16)      | P1 win - σ = 0.70s "metronome city"    |
+| **Ultimate PB**       | 50.592s (Dec 17)      | Set on lap 3 while LEADING before spin |
+| **Best Qualifying**   | 50.853s (Dec 17)      | Pole position! 👑                      |
+| **Flow Consistency**  | σ = 0.36s (Dec 14)    | Tightest consistency ever achieved     |
+| **S2 Precision**      | σ = 0.056s (flow)     | 56 milliseconds variance = robotic     |
+| **Theoretical Best**  | 50.416s (Dec 17)      | 99.7% efficiency achieved              |
+| **Mental Growth**     | Scared → Unbreakable  | Championship DNA confirmed             |
 
 ---
 

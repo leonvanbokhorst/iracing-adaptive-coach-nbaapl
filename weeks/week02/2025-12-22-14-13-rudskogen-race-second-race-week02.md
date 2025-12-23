@@ -170,14 +170,16 @@ _Bold lines show sustained forces, light dots show momentary spikes from kerbs a
 ### The Numbers Don't Lie:
 
 **🔴 Afternoon Lap (1:28.620) - P3 Comeback:**
+
 - Sustained max: **2.205G**
-- Raw spikes: 2.977G  
+- Raw spikes: 2.977G
 - Sustained lateral: **2.202G**
 - Peak braking: -1.419G
 - Smoothness: 0.0232
 
 **🟢 Morning Lap (1:28.508) - Clean Hot Lap:**
-- Sustained max: **2.111G** ✅  
+
+- Sustained max: **2.111G** ✅
 - Raw spikes: 2.552G ✅
 - Sustained lateral: **2.103G** ✅
 - Peak braking: -1.318G
@@ -214,11 +216,13 @@ The morning lap shows more **flow** - smoother inputs, predictable weight transf
 **Master, this PROVES the "too eager to follow" feeling from lap 8.**
 
 When you're chasing someone (afternoon race, fighting back from P10), your inputs get more aggressive:
+
 - Sharper turn-ins (lateral spikes)
-- Harder braking (longitudinal spikes)  
+- Harder braking (longitudinal spikes)
 - More corrections (erratic path)
 
 When you're in clean air (morning race, hot lap pace), your inputs are smoother:
+
 - Progressive weight transfer
 - Controlled at the limit
 - Flow instead of fight
@@ -226,6 +230,7 @@ When you're in clean air (morning race, hot lap pace), your inputs are smoother:
 **The lap time difference (0.112s) is the physical cost of "trying harder"** instead of "flowing faster."
 
 This is why "Position Secured = Survival Mode" matters. When you had P3, you didn't need to keep fighting. The data shows you were already pushing harder than the morning (2.205G vs 2.111G sustained). Backing off 5% would have meant:
+
 - Lower sustained G (less overdriving)
 - Fewer spikes (less fighting)
 - Better smoothness (more predictable)

@@ -190,7 +190,7 @@ BRAKING (Heavy)
 
 ACCELERATION (Hard)
          ←CoG
-          ●
+             ●
     ▲           ▲
    30%         70%
   FRONT       REAR
@@ -327,7 +327,7 @@ Each tire operates on a **traction circle** (or "friction circle"):
 
 ### Visual: The Traction Circle
 
-![Traction Circle - Basic Concepts](assets/traction-circle-basic.png)
+![Traction Circle - Basic Concepts](../assets/traction-circle-basic.png)
 
 _The green circle is your grip limit. Points inside = safe. Points outside = sliding. Notice how 70.7% braking + 70.7% cornering lands right on the circle!_
 
@@ -367,7 +367,7 @@ The best drivers in the FF1600 manage combined weight transfer in a narrow windo
 
 ### Visual: Perfect Trail Braking Path
 
-![Traction Circle - Trail Braking Path](assets/traction-circle-trail-braking.png)
+![Traction Circle - Trail Braking Path](../assets/traction-circle-trail-braking.png)
 
 _This is what perfect trail braking looks like on the traction circle. You start with heavy braking (straight line), gradually reduce brake while adding steering (staying on the circle), hit the apex at maximum cornering, then progressively add throttle while reducing steering. The entire path stays on the edge of the grip circle!_
 
@@ -708,7 +708,7 @@ Speed:    \__/‾‾‾‾  ← Lower minimum, car unsettled
 
 ### Visual: Good vs Bad Weight Transfer
 
-![Traction Circle - Comparison](assets/traction-circle-comparison.png)
+![Traction Circle - Comparison](../assets/traction-circle-comparison.png)
 
 _Left: Smooth trail braking stays on the circle throughout the corner. Right: Abrupt transitions exceed the grip limit, causing the tires to slide. The difference between fast and slow is smoothness._
 
@@ -915,7 +915,7 @@ _Left: Smooth trail braking stays on the circle throughout the corner. Right: Ab
 
 The best way to understand weight transfer is to see it in your own telemetry data. Here's an actual comparison of two laps at Rudskogen Motorsenter:
 
-![Real Traction Circle Comparison](assets/traction-circle-driver-comparison.png)
+![Real Traction Circle Comparison](../assets/traction-circle-driver-comparison.png)
 
 _Slow lap (red, 1:29.128) vs Fast lap (green, 1:28.509). Bold lines show sustained forces, light dots show momentary spikes._
 

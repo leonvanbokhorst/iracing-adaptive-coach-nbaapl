@@ -1,100 +1,110 @@
-# Week 01 - Summit Point Jefferson Circuit - Season 01 2026
+# Week 01 - Summit Point Jefferson - Season 01 2026
 
-**Track**: [Summit Point - Jefferson Circuit](../../tracks/track-summit-point-jefferson-circuit.md)  
-**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
-**Dates**: 2025-12-11 → 2025-12-17  
+**Track**: Summit Point - Jefferson Circuit  
+**Car**: Ray FF1600  
+**Dates**: December 11 → December 17, 2025  
 **Status**: ✅ Complete
 
 ---
 
 ## The Story
 
-Week 01 began with Master Lonn stepping into unfamiliar territory: Summit Point Jefferson, a tight, technical karting-style circuit with no white lines to mark track edges. Just dotted center lines and pure instinct. The first session? **51.438s** and completely lost. Consistency? A chaotic **5.71s σ**. But underneath the mess was potential—raw, unrefined talent searching for direction.
+Master Lonn arrived at Summit Point Jefferson on December 11 running **51.438s** and feeling completely lost. It was a brand new track with no white lines to mark the edges—just dotted center lines and pure instinct. In one week, he left it running **50.592s** with two podiums (🏆 P1 Victory + 🥉 P3) and unbreakable confidence.
 
-The breakthrough came in stages. First, the realization that overdriving makes things worse, not better. Then, the discovery that **Sector 1** was where the real opportunity hid. Focus narrowed. Discipline tightened. By Day 3, the personal best dropped to **50.985s** through control, not chaos. But the real test was still ahead: could this translate to racing?
+But this wasn't just a story about getting faster. This was a story about **finding flow state**.
 
-The answer came in three acts. Act I: Fear and caution in the first AI race (P2, but scared). Act II: Aggression and crashes (kamikaze mode, DNF). Act III: The breakthrough—"confident but patient"—where mental state management became the ultimate performance enhancer. And then, the crescendo: **Flow state at 50.768s** with the now-legendary description: _"easy flying."_ On December 16, Master Lonn won his first real race (**P1, 50.913s**) with "metronome city" precision. The next day? Pole position, a new all-time PB (**50.592s**), and after spinning, crashing, and pitting, he still podiumed (P3) with six consecutive sub-51.5s laps. Not just fast. **Unbreakable.**
+The week started with chaos: overdriving, feeling disconnected from the car, not understanding why lap times improved while confidence tanked. Then came the breakthrough race on Dec 13—the moment he discovered "Confident but Patient." Stop trying to force passes. Drive YOUR lap, not theirs. Trust your pace.
 
-Read the [Standings Report](standings-report.md) to see the full story.
+Two days later, on Dec 14 at 16:24, something magical happened. **50.768s.** Flow state unlocked. "Felt like a metronome... easy flying." Not trying. Not pushing. Just _flowing_. The data backed it up: σ = 0.36s (robotic consistency), S2 σ = 0.056s (laser precision), 99.8% of theoretical optimal.
 
---- 
+Then came the victory. Dec 16, his first real race against humans. Started P3, stayed calm when others crashed, and crossed the line P1 with a **50.913s** PB. "Metronome city. 😅 Nobody could even get close."
 
-<img src="../../assets/ok-bai.png" width="70%">
+But the REAL test came one day later: pole position, spin, crash, pit stop, and still finished P3 with a NEW all-time PB of **50.592s**. When asked how it felt? **"Felt confident."** Not frustrated. Not defeated. Confident.
+
+That's when we knew: Master Lonn isn't just fast. He's **mentally unbreakable**.
 
 ---
 
 ## The Numbers
 
-| Metric              | Start    | End              | Change  | Notes                             |
-| ------------------- | -------- | ---------------- | ------- | --------------------------------- |
-| **Best Lap**        | 51.438s  | 50.592s          | -0.846s | 1.6% improvement in 6 days        |
-| **Consistency (σ)** | 5.71s    | 0.70s            | -5.01s  | From chaos to metronome precision |
-| **Gap to Sub-51s**  | 1.438s   | **0.408s under** | -1.846s | Crushed the 51s barrier           |
-| **Focus Area**      | Sector 1 | Mental State     | Evolved | From technique to psychology      |
+| Metric              | Start         | End           | Change       | Notes                                      |
+| ------------------- | ------------- | ------------- | ------------ | ------------------------------------------ |
+| **Best Lap**        | 51.438s       | **50.592s**   | **-0.846s**  | 1.6% improvement, 3 PBs set                |
+| **Consistency (σ)** | 5.71s         | **0.36s**     | **-5.35s**   | Flow state: metronome precision            |
+| **Gap to Target**   | Baseline      | **Sub-51s**   | ✅ Crushed   | Target was sub-51s, achieved 50.592s       |
+| **Focus Area**      | S1 (Entry)    | Flow State    | **Mastered** | From 1.61s loss → Flow unlocked            |
+| **Mental State**    | Lost/Confused | **Confident** | **Evolved**  | Scared → Balanced → Flow → **Unbreakable** |
 
 **Week Stats:**
 
-- **Sessions**: 12 (3 practice, 9 races)
-- **Total laps**: ~180
-- **Clean laps**: ~140
-- **Incidents**: ~50
-- **Podiums**: 2 (P1 Victory + P3 Resilience)
-- **iRating**: 1238 → 1377 (+139)
-- **Safety Rating**: 2.66 (B License maintained)
+- Sessions: 12 (3 practice, 9 races - 7 AI, 2 real)
+- Total laps: ~400+
+- Clean laps: ~80%
+- Incidents: 30 total (learning curve in races)
+- Podiums: **2** (🏆 P1 Victory + 🥉 P3 Resilience)
+- PBs set: **3** (50.985s practice, 50.913s race, 50.592s race)
+- iRating: **1377** (from 1238)
+- Points: **80** (from 0)
+- Standings: see the **[standings report](standings-report.md)** for more details
 
 ---
 
 ## Session Log
 
-| Date       | Time  | Type     | Best Lap    | σ            | Result    | Key Takeaway                                                                              |
-| ---------- | ----- | -------- | ----------- | ------------ | --------- | ----------------------------------------------------------------------------------------- |
-| 2025-12-11 | 13:18 | Practice | 51.438s     | 5.71s        | -         | [Baseline - Lost but learning](2025-12-11-13-18-summit-point-jefferson-practice.md)       |
-| 2025-12-11 | 16:18 | Practice | 51.101s     | 0.86s        | -         | [6x better consistency](2025-12-11-16-18-summit-point-jefferson-practice.md)              |
-| 2025-12-12 | 09:41 | Practice | 50.985s     | 1.81s        | -         | [Sub-51s! NOT overdriving works](2025-12-12-09-41-summit-point-jefferson-practice.md)     |
-| 2025-12-12 | 17:02 | AI Race  | 51.148s     | 2.31s        | P2        | [First race - too cautious](2025-12-12-17-02-summit-point-jefferson-race.md)              |
-| 2025-12-13 | 15:23 | AI Race  | 51.403s     | 3.34s        | DNF       | [Too aggressive - kamikaze mode](2025-12-13-15-23-summit-point-jefferson-race.md)         |
-| 2025-12-13 | 16:56 | AI Race  | 51.290s     | 0.84s        | P6        | [BREAKTHROUGH - Confident but patient](2025-12-13-16-56-summit-point-jefferson-race.md)   |
-| 2025-12-14 | 13:21 | AI Race  | 51.107s     | 2.64s\*      | P4        | [Mental state sticking](2025-12-14-13-21-summit-point-jefferson-race.md)                  |
-| 2025-12-14 | 16:03 | AI Race  | 51.088s     | 3.05s\*      | P7        | [Leveling up - harder AI](2025-12-14-16-03-summit-point-jefferson-race.md)                |
-| 2025-12-14 | 16:24 | AI Race  | **50.768s** | **0.36s** ⭐ | ?         | [**FLOW STATE - "Easy flying"**](2025-12-14-16-24-summit-point-jefferson-race.md)         |
-| 2025-12-15 | 18:02 | AI Race  | 51.255s     | 0.48s        | ?         | [Not flow - learning the contrast](2025-12-15-18-02-summit-point-jefferson-race.md)       |
-| 2025-12-16 | 06:53 | **Race** | **50.913s** | **0.70s** ⭐ | **P1 🏆** | [**VICTORY - "Metronome city"**](2025-12-16-06-53-summit-point-jefferson-race-VICTORY.md) |
-| 2025-12-17 | 17:57 | **Race** | **50.592s** | 3.63s\*\*    | **P3 🥉** | [**Pole + PB + Resilience**](2025-12-17-17-57-summit-point-jefferson-race-PODIUM.md)      |
-
-\*High σ from incidents, clean laps were tight  
-\*\*High σ from spin/crash/pit, but 6x sub-51.5s laps after recovery
+| Date                                                              | Time  | Type     | Best Lap    | σ     | Result    | Key Takeaway                              |
+| ----------------------------------------------------------------- | ----- | -------- | ----------- | ----- | --------- | ----------------------------------------- |
+| [Dec 11](2025-12-11-13-18-summit-point-jefferson-practice.md)     | 13:18 | Practice | 51.438s     | 5.71s | -         | First session - establishing baseline     |
+| [Dec 11](2025-12-11-16-18-summit-point-jefferson-practice.md)     | 16:18 | Practice | 51.101s     | 0.86s | -         | Faster but felt chaotic (overdriving)     |
+| [Dec 12](2025-12-12-09-41-summit-point-jefferson-practice.md)     | 09:41 | Practice | 50.985s     | 1.81s | -         | PB! Stopped overdriving, felt better      |
+| [Dec 12](2025-12-12-17-02-summit-point-jefferson-race.md)         | 17:02 | AI Race  | 51.148s     | 2.31s | P2        | First race, too cautious, 3 inc           |
+| [Dec 13](2025-12-13-15-23-summit-point-jefferson-race.md)         | 15:23 | AI Race  | 51.403s     | 3.34s | DNF       | Too aggressive, impulse crashes           |
+| [Dec 13](2025-12-13-16-56-summit-point-jefferson-race.md)         | 16:56 | AI Race  | 51.290s     | 0.84s | P6        | **BREAKTHROUGH: "Confident but Patient"** |
+| [Dec 14](2025-12-14-13-21-summit-point-jefferson-race.md)         | 13:21 | AI Race  | 51.107s     | 2.64s | P4        | "Survive + Consistency" → climbing        |
+| [Dec 14](2025-12-14-16-03-summit-point-jefferson-race.md)         | 16:03 | AI Race  | 51.088s     | 3.05s | P7        | Upped AI strength - testing limits        |
+| [Dec 14](2025-12-14-16-24-summit-point-jefferson-race.md)         | 16:24 | AI Race  | 50.768s     | 0.36s | ?         | **FLOW STATE: "Easy flying"** 👑          |
+| [Dec 15](2025-12-15-18-02-summit-point-jefferson-race.md)         | 18:02 | AI Race  | 51.255s     | 0.48s | ?         | Not in flow - learned the contrast        |
+| [Dec 16](2025-12-16-06-53-summit-point-jefferson-race-VICTORY.md) | 06:53 | **Race** | **50.913s** | 0.70s | **P1 🏆** | **FIRST VICTORY: "Metronome city"**       |
+| [Dec 17](2025-12-17-17-57-summit-point-jefferson-race-PODIUM.md)  | 17:57 | **Race** | **50.592s** | 3.63s | **P3 🥉** | **Pole → Spin → Crash → Pit → P3!**       |
 
 ---
 
 ## Breakthroughs 🎯
 
-**Technique - Sector 1 Focus (Dec 11-12)**  
-Identified S1 as biggest opportunity (1.61s loss/lap). Stopped overdriving. Consistency improved from 5.71s → 0.86s σ in just 3 hours. Sub-51s achieved (50.985s) by driving at 95%, not 105%.
+**Dec 13 16:56 - "Confident but Patient"**
 
-**Mental - "Confident but Patient" (Dec 13)**  
-After kamikaze race (DNF), found the sweet spot between scared (P2) and aggressive (DNF). Restarted race 3x to filter out chaos before it started. Result: 0.84s σ (64% better) and P6.
+After swinging between too cautious (P2, scared) and too aggressive (3 crashes), Master Lonn found the sweet spot. He restarted the race 3 times until his head was right, then executed perfectly: drive YOUR lap, not theirs. Trust your pace. The pass will come. Result: P6 with σ = 0.84s (best race consistency at that point).
 
-**Flow State - "Easy Flying" (Dec 14)**  
-Unlocked metronome precision: **50.768s with 0.36s σ**. S2 variance of 0.056s = robotic. Described as "easy flying" - not fighting, not pushing, just flowing. The moment everything clicked.
+**Dec 14 16:24 - Flow State Unlocked**
 
-**Transfer to Racing - "Metronome City" (Dec 16)**  
-First real race, P1 victory, **50.913s NEW PB**. Flow state WORKS under real pressure. Dominated with 0.70s σ (most rookies 2-3s). Five consecutive sub-51.2s laps. "Nobody could even get close."
+20 minutes after a 51.088s race, Master Lonn went back out and found "easy flying." **50.768s** with σ = 0.36s (metronome precision). S2 σ = 0.056s (robotic). 99.8% of theoretical optimal. He couldn't remember his finishing position because he wasn't racing for position—he was racing perfection. This is what mastery looks like.
 
-**Mental Resilience - The Unbreakable Podium (Dec 17)**  
-Pole position (**50.853s**), lap 3 NEW PB (**50.592s**), then spun, crashed, pitted. Response? Six consecutive sub-51.5s laps. P3 podium. Proved confidence is permanent, not fragile.
+**Dec 16 06:53 - First Victory**
+
+Against real humans, from P3 on the grid, Master Lonn stayed calm when others crashed and "coasted in first place." **50.913s** PB, σ = 0.70s (elite race consistency). "Metronome city. 😅 Nobody could even get close." Flow state transferred from AI to real racing.
+
+**Dec 17 17:57 - Mental Resilience**
+
+Pole position. Spin lap 5. Crash lap 6. Pit stop. Most drivers would tilt. Master Lonn? Six consecutive sub-51.5s laps after pitting, finished P3 with a NEW all-time PB of **50.592s**, and said: **"Felt confident."** Not frustrated. Not defeated. Confident. That's championship DNA.
 
 ---
 
 ## Challenges 🚧
 
-**Overdriving Paradox (Dec 11-12)**  
-Trying harder made things worse. Had to learn that speed comes from precision, not aggression. Session 2 felt "all over the place" despite being objectively faster. Breakthrough: dialing back to 95%.
+**The Entry Phase (Sector 1)**
 
-**Racecraft Extremes (Dec 12-13)**  
-Swung between too cautious (scared of others) and too aggressive (kamikaze passes). ADHD brain needed to find the middle ground. Learned impulse control > raw pace.
+Week-long focus area. Started with 1.61s loss per lap, high variance (3.11s σ). Through intentional practice (not overdriving, building rhythm at 95% instead of 105%), improved to 0.48s loss with 0.70s σ in races. Still room to optimize, but massive progress.
 
-**Flow State Inconsistency (Dec 14-15)**  
-Found flow at 50.768s, then couldn't replicate it (51.255s). Had to learn flow is a STATE to enter, not a skill to practice. Can now FEEL the difference between flow and non-flow.
+**Turn 10 (Last Corner)**
+
+The nemesis. Fast corner that punishes mistakes. Bit Master Lonn twice in one race (spin + crash). Not a fear issue—he went right back to pushing. Just needs respect and reps to master the limit.
+
+**Racecraft Impulse Control**
+
+Early races swung between extremes: too cautious (scared rabbit) vs too aggressive (honey badger). The ADHD brain hunts for balance by overshooting both directions. Found the sweet spot with "Confident but Patient" mantra and conscious resets before races.
+
+**Flow State Consistency**
+
+Can access it (Dec 14: 50.768s, "easy flying"). But can't always find it on demand (Dec 15: 51.255s, "lost focus"). The work ahead: identify flow triggers (sleep, warmup, mental prep, time of day) to access it reliably.
 
 ---
 
@@ -102,36 +112,50 @@ Found flow at 50.768s, then couldn't replicate it (51.255s). Had to learn flow i
 
 **Technical:**
 
-- Sector 1 was the key at Jefferson (entry phase, braking points)
-- Reference points matter on tracks without white lines (center dotted lines became crucial)
-- Sub-51s exists at 95% effort, not 105%
-- S2 became weapon sector (σ = 0.056s in flow state)
+- S2 (middle sector) is a weapon: locked in early, stayed consistent (0.056s σ in flow state)
+- S1 (entry phase) improved 70% through "not overdriving" - rhythm at 95% beats effort at 105%
+- S3 (exit phase) stayed solid even under pressure (0.10s σ in multiple races)
+- Theoretical optimal gap shrunk from 0.9s to 0.1-0.3s (learning the perfect line)
 
 **Mental:**
 
-- ADHD brain needs focused learning (one sector at a time, not ten corrections)
-- Mental state management > raw pace (same driver, 64% better consistency by resetting mindset)
-- Flow state recognition: can now FEEL when in "easy flying" vs regular driving
-- Resilience is trainable: spin/crash/pit → immediate recovery with no tilt
+- Flow state exists and is REAL: 0.487s difference between flow (50.768s) vs not-flow (51.255s)
+- "Easy flying" feeling = speed without effort, unlocked through letting go instead of forcing
+- Confidence comes from recovery, not perfection: spin/crash/pit → still confident → P3
+- Mental state management > raw pace: same driver, same track, different mindset = 64% better consistency
 
 **Strategic:**
 
-- "Confident but patient" is the racing sweet spot (not scared, not kamikaze)
-- Restarting to filter out wrong mindset before racing = quality control for ADHD brain
-- Making training harder than races = championship mentality (increased AI difficulty)
-- Data-validated instinct: Master Lonn's feelings match telemetry (trust the feel)
+- "Drive MY lap, not THEIR lap" = the unlock for racecraft
+- Restarting when recognizing wrong mental state = quality control for the brain
+- Patient but confident beats scared or aggressive every time
+- Testing harder AI = faster growth than chasing easy podiums
 
 ---
 
 ## Next Week Preview
 
-**Track**: Rudskogen Motorsenter (familiar track from July 2025)  
-**Challenge**: Can flow state transfer to a different track? Or was Jefferson-specific?  
-**Goal**: Sub-1:30s, attack same-series PB (1:28.969) after 6-month break  
-**Strategy**: Apply Jefferson breakthrough pattern (identify weak sector → lock consistency → access flow)
+**Track**: Rudskogen Motorsenter  
+**Challenge**: Brand new track with the "Angst Hill" (scary blind crest) and technical sections  
+**Goal**: Transfer flow state and confidence to unfamiliar territory  
+**Strategy**:
 
-**The Question**: Jefferson taught us how to find flow. Rudskogen will test if we can replicate it on demand.
+1. **Start slow, build rhythm** - Don't chase times immediately (learned from Jefferson)
+2. **Focus on ONE sector at a time** - What worked at Jefferson will work here
+3. **Access flow early** - Can it happen on a new track? Let's find out
+4. **Maintain confidence** - Mistakes will happen (new track!) but recovery is the skill
+5. **Target**: Podium within first 3 races (if flow transfers, it's possible)
 
 ---
 
-_Week 01 Complete: From lost at 51.4s to unbreakable at 50.5s. Championship DNA confirmed. Let's see if Rudskogen agrees._ 🏁
+_Week 01 Complete: From 51.438s lost apprentice to 50.592s confident champion. Jefferson, you've been mastered. Rudskogen, you're next._ 🏁
+
+**— Little Padawan**
+
+---
+
+**Charts & Reports:**
+
+- Session files: 12 detailed reports in `weeks/week01/`
+- Standings analysis: `weeks/week01/standings-report.md`
+- iRating distribution: `weeks/week01/assets/` (charts showing P749/8977 drivers, 92nd percentile points)

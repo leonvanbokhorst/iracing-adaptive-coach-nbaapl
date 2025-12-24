@@ -50,9 +50,18 @@ def analyze_telemetry_facts(csv_path):
     # Using a rolling window to smooth noise could be good, but keeping it simple for now
     
     # 2. Braking Analysis
-    braking_zones = df[df['Brake'] > 5] # Brake pressure > 5%
+    # Check if data is 0-1 or 0-100
+    is_percent = df['Brake'].max() > 1.0
+    threshold = 5.0 if is_percent else 0.05
+    
+    braking_zones = df[df['Brake'] > threshold]
     max_brake_pressure = safe_float(braking_zones['Brake'].max()) if not braking_zones.empty else 0.0
     avg_brake_pressure = safe_float(braking_zones['Brake'].mean()) if not braking_zones.empty else 0.0
+    
+    # Normalize to 0-100 for report consistency
+    if not is_percent:
+        max_brake_pressure *= 100
+        avg_brake_pressure *= 100
     
     # Max Deceleration (LongAccel is usually negative for braking)
     # Some sims use positive for braking, but typically it's negative Gs.
@@ -60,8 +69,11 @@ def analyze_telemetry_facts(csv_path):
     max_braking_g = safe_float(df['LongAccel'].min())
     
     # 3. Throttle Analysis
-    throttle_zones = df[df['Throttle'] > 5]
+    throttle_zones = df[df['Throttle'] > threshold]
     avg_throttle = safe_float(throttle_zones['Throttle'].mean()) if not throttle_zones.empty else 0.0
+    
+    if not is_percent:
+        avg_throttle *= 100
     
     # 4. Cornering Gs
     # Max Lateral G (absolute value)

@@ -6,7 +6,7 @@ __pycache__/
 .venv/
 .env/
 .DS_Store
-/data/
+/data/processed
 
 # C extensions
 *.so

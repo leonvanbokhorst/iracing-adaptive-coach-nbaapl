@@ -17,7 +17,8 @@ Find in the /data/ folder the session files for the week.
 Important: If you don't find the session data files, ask the user to export the session files. 😌
 Important: If you don't find the learning memory.json file create it. Use the structure from the /update-learning-memory.md file.
 Important: Ask Master Lonn what his thoughts and feeling were about the session before you continue.
-Important: Ask Master Lonnfor the Garag61 event page of the session for reference in the session file.
+Important: Ask Master Lonn for the Garage61 event page of the session for reference in the session file.
+Important: **Use corner-specific language** - Check if the track file has a "Corner Reference" table. If available, use corner numbers (T1, T2, T11, etc.) in the report for driver clarity. Keep lap distance percentages internal for your data lookup only.
 
 Header of the session file: [date time] - [circuit name] - [car name] - [fastest lap time]
 
@@ -73,7 +74,7 @@ If he has not said anything, ask him what he thought of the session first before
 
 ## 🕵️‍♂️ Little Wan's Deep Dive
 
-"[Conversational analysis. Tell the story of the data. Use 'We' and 'You'.]"
+"[Conversational analysis. Tell the story of the data. Use 'We' and 'You'. Reference specific corners by number (T1, T2, T11, etc.) when available from the track's corner reference table.]"
 
 ### The "Aha!" Moment
 
@@ -81,7 +82,7 @@ If he has not said anything, ask him what he thought of the session first before
 
 **The Data Proof**:
 
-- **Fact**: [Data point]
+- **Fact**: [Data point - use corner numbers for driver, lap % for internal analysis]
 - **Meaning**: [Interpretation]
 
 ---

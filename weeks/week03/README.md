@@ -116,13 +116,33 @@ Week 03 races: execute the contract from race 1. Survive lap 1-2 clean. NO passi
 
 ---
 
-## Session Log
+## The Story So Far
 
-_Will be updated as sessions are completed..._
+**Session 1 - December 25, 13:32 - Christmas Day Exploration**
+
+Eighteen months. That's how long it had been since Master Lonn last pointed the Ray at Winton's twelve corners. Long enough for muscle memory to fade. Long enough to wonder if the lines would still be there.
+
+The first few laps felt... familiar but foreign. Like seeing an old friend you haven't spoken to in years—you remember the face, but the conversation takes time to flow again. Turn 1 came back first. Then T2, the hairpin. The hands started remembering what the brain had forgotten.
+
+And then, lap 10 of 20, something clicked. Not dramatically. Just... right. The timer stopped. **1:26.439**.
+
+Four tenths faster than July 2024. In the first session. With cold tires to sort out and Sector 4 still hiding time.
+
+July's ghost didn't stand a chance.
+
+**The Lesson:** Trail braking came back naturally. The early throttle from Rudskogen translated perfectly. The 57% brake bias worked. But Turn 11—that second-to-last corner with the 50m board—asked a question on cold tires that Master Lonn answered with two spins. Memory remembered the brake point. Experience forgot the cold tire discount.
+
+**The Map:** And then Little Padawan built something special. A track map. Every corner numbered. Every position marked. Turn 11 now has a face, a location (85% lap distance), and a reputation: the cold tire danger zone.
+
+**Status:** Sub-1:26.5 goal? Done in session 1. Next target: find the 0.3s hiding in Sector 4 (T10, T11, T12) and close the gap to the theoretical optimal of 1:26.141.
+
+---
+
+## Session Log
 
 | Date | Time | Type | Best Lap | σ   | Result | Key Takeaway |
 | :--- | :--- | :--- | :------- | :-- | :----- | :----------- |
-| TBD  | TBD  | TBD  | TBD      | TBD | TBD    | TBD          |
+| Dec 25 | 13:32 | Practice | **1:26.439** ✨ | 2.36s | **NEW PB!** (-0.396s) | Beat 18mo PB in session 1! T11 cold tire danger identified. [Report](2025-12-25-13-32-winton-practice.md) |
 
 ---
 

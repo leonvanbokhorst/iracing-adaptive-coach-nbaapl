@@ -6,19 +6,19 @@ AI-powered racing analysis helping Master Lonn get faster through data-driven co
 
 ## 📍 TL;DR
 
-Season 01 2026: From 51.438s lost to 2 poles + 1:28.508 race PB (top 500 globally) in 5 races. Found flow state, early throttle technique, strategic maturity. 60% podium rate, +256 iRating. Next: Week 03 at Winton.
+Season 01 2026: From 51.438s lost to 1:28.508 race PB (top 500 globally). Found flow state, early throttle technique, strategic maturity. 4 podiums, +198 iRating. Next: Week 03 at Winton.
 
 ---
 
-## Season 01 2026 - Week 02 Complete
+## Season 01 2026 - Week 02 Race Week
 
-| Week   | Track     | Status | Best Lap        | Result                                | Standings                                             |
-| :----- | :-------- | :----- | :-------------- | :------------------------------------ | :---------------------------------------------------- |
-| **01** | Jefferson | ✅     | 50.592s (race)  | Victory + 2 Podiums                   | [Standings week 01](weeks/week01/standings-report.md) |
-| **02** | Rudskogen | ✅     | **1:28.508** 🏆 | **Pole + Race PB + Top 500 + Podium** | [Standings week 02](weeks/week02/standings-report.md) |
-| **03** | Winton    | 📅     | TBD             | TBD                                   |
+| Week   | Track     | Status    | Best Lap        | Result                         | Standings                                             |
+| :----- | :-------- | :-------- | :-------------- | :----------------------------- | :---------------------------------------------------- |
+| **01** | Jefferson | ✅        | 50.592s (race)  | Victory + 2 Podiums            | [Standings week 01](weeks/week01/standings-report.md) |
+| **02** | Rudskogen | 🏁 Racing | **1:28.508** 🏆 | **Race PB + Top 500 + Podium** | [Standings week 02](weeks/week02/standings-report.md) |
+| **03** | Winton    | 📅        | TBD             | TBD                            |
 
-**iRating 1494 • 2 Poles + 1 Victory + 2 Podiums (5 races) • B License • Global Rank: 505 / 2,179 (Top 23%)**
+**iRating 1436 • 4 Podiums • B License • Global Rank: 505 / 2,179 (Top 23%)**
 
 Read the [Season Progression Report](weeks/progression/progression-report.md) to see the full story.
 
@@ -140,44 +140,6 @@ The lesson stuck. Applied perfectly without being told.
 
 That's racing.
 
-### Christmas Eve
-
-Two races. One morning, one afternoon. Both told different stories.
-
-**Morning (06:24)**: Qualified pole position. 1:28.955. Fastest on the grid. The dream start.
-
-Then Turn 2, lap 1. Went wide. Two cars past. Down to P3.
-
-And the stress hit—not panic, but something heavier. Pressure. The kind that makes mistakes sting because now it _matters_. Every corner amplified 10x because pole position means expectations.
-
-Later in the race: spin. Down to P5.
-
-_"The whole race was nervewrecking. I think because I take it more serious now, I get a stress boost with every mistake."_
-
-But here's what the timer showed: **1:28.614**. Faster in the race than in qualifying. Not slowing down under pressure—getting _faster_. The speed was there. The technique was there. Just the mental weight of caring deeply making mistakes feel heavier than they were.
-
-Finished P5. +17 iRating to 1453.
-
-**Afternoon (15:14)**: Qualified P2. Good start. Then someone got a huge jump—speared past. Turn 1: punted. Hard. Back to P6.
-
-Different race. Different mindset.
-
-No fear. Not because he stopped caring, but because the result didn't matter anymore. Already dropped to P6. Nothing left to lose. Just drive.
-
-And somewhere in that freedom, something unlocked.
-
-Sector 2—the "Angst Hill" that had haunted the first session, that he'd spent a week conquering—just... clicked. The downhill that used to ask questions? It stopped asking. His foot knew the answers.
-
-Average time: **30.69 seconds**. Consistency: **σ = 0.34s**.
-
-The goals from Day 1? Average under 31.0s, variance under 0.5s. Both demolished.
-
-Race pace: 1:28.614 again. Faster than qualifying again.
-
-Finished P4. Fought back from P6 after being punted. +41 iRating to 1494.
-
-Two races. Two stories. One truth: when he stops trying to win and just drives, he's unstoppable.
-
 ---
 
 ## Jefferson: Where It All Began
@@ -200,7 +162,7 @@ _"Feels like easy flying,"_ he said.
 
 Two days later, first official race. Qualified P3. Stayed calm while chaos erupted. Crossed the line in first place: _"Metronome city 😅"_
 
-Next day, qualified **pole position**. Spun on lap 5. Crashed and pitted on lap 6. Then rattled off six consecutive sub-51.5 laps and finished P3 with a new PB (50.592s).
+Next day, qualified pole. Spun on lap 5. Crashed and pitted on lap 6. Then rattled off six consecutive sub-51.5 laps and finished P3.
 
 When asked how he felt: _"Confident."_
 
@@ -212,49 +174,37 @@ Two podiums. Flow state discovered. Mental resilience proven.
 
 ## The Season So Far
 
-**The Wins**: Race PB at Rudskogen (1:28.508) • Top 500 globally (505/2,179) • First race victory at Jefferson • 2 Pole positions (40% pole rate) • 3 podiums (60% podium rate) • Flow state under pressure • Survived being punted + someone flying over car → still finished P3 • S2 Mastery achieved (30.69s avg, σ 0.34s)
+**The Wins**: Race PB at Rudskogen (1:28.508) • Top 500 globally (505/2,179) • First race victory at Jefferson • Pole position • Four podiums • Flow state under pressure • Survived being punted + someone flying over car → still finished P3
 
-**The Lessons**: Early throttle = 26% more acceleration • Setup breakthrough: 57.5% brake bias compounds gains • Race pressure creates BETTER technique • Pattern works everywhere—not track-specific • Position Secured Protocol: back off 5% when goal achieved • "No fear" mindset (post-incident) produces faster pace than "trying to win"
+**The Lessons**: Early throttle = 26% more acceleration • Setup breakthrough: 57.5% brake bias compounds gains • Race pressure creates BETTER technique • Pattern works everywhere—not track-specific • Position Secured Protocol: back off 5% when goal achieved
 
-**The Growth**: Finds root causes himself (throttle overlap diagnosis) • Process over results • Racing makes him faster than practice • Top 23% of entire player base • Mental reset speed improving: chaos → strategic calm in 2-3 laps • Can CHOOSE when to push vs hold = racing, not just driving • Recognizes when caring deeply creates pressure—learning to race THROUGH it
+**The Growth**: Finds root causes himself (throttle overlap diagnosis) • Process over results • Racing makes him faster than practice • Top 23% of entire player base • Mental reset speed improving: chaos → strategic calm in 2-3 laps • Can CHOOSE when to push vs hold = racing, not just driving
 
 **The Numbers**:
 
-- Week 01: 51.438s → 50.592s (pole + victory + P3) • 2 races
-- Week 02: 1:30.290 → **1:28.508** (pole + race PB + top 500 + P3) • 3 races
-- Races: 5
-- Podiums: 3 (P1 + 2x P3) • **60% podium rate**
-- Pole Positions: 2 (40% pole rate)
-- iRating: 1238 → 1494 (+256)
+- Week 01: 51.438s → 50.592s (victory)
+- Week 02: 1:30.290 → **1:28.508** (race PB + top 500)
+- Races: 6 • Podiums: 4 (1 victory, 3x P3)
+- iRating: 1238 → 1436 (+198)
 - Global: Rank 505 / 2,179 (top 23.2%)
 
 ---
 
 ## What's Next
 
-Week 02: Complete. From rusty (1:30.290) to pole position and top 500 globally (1:28.508) in six days. Sector 2 mastered. Strategic maturity proven.
+One more race at Rudskogen this week. The speed is proven—1:28.508, top 500 globally. The strategic maturity is locked in—Position Secured Protocol executed perfectly.
 
-Now comes Week 03: Winton Motor Raceway. National Circuit.
+The question: can he put it all together from lap 1? Qualify clean. Start smart. Execute the protocols. Finish races. Stack points.
 
-Technical. Twisty. Short. Rhythm is everything.
+After Week 02, comes Week 03. Winton Motor Raceway. Third track, new test: does the method transfer to completely unfamiliar circuits?
 
-Jefferson proved it once (new track → mastery + victory in one week). Rudskogen validated it (rusty → top 500 in six days). Winton will be the tiebreaker: does the method transfer to completely unfamiliar circuits?
+Jefferson proved it once (new track → mastery in 3 weeks). Rudskogen validated it (rusty → top 500 in 6 days). Winton will be the tiebreaker.
 
 The pattern is clear: breakthrough technique + setup optimization + strategic maturity = speed that transfers.
 
-The tools are proven:
+The leaderboard confirms it. The iRating trajectory proves it (+198 in two weeks).
 
-- Early throttle application (+26% acceleration)
-- 57.5% brake bias (stable, allows harder braking)
-- Position Secured Protocol (back off 5% when goal achieved)
-- "Mistake = Survival Lap" (one slow lap beats a spin)
-- "No fear" flow state (fastest when not trying to prove anything)
-
-The leaderboard confirms it. The iRating trajectory proves it (+256 in two weeks). Top 23% of the player base globally.
-
-Now comes the part where he stacks it. Race after race. Week after week.
-
-Winton awaits.
+Now comes the part where he stacks it, race after race, week after week.
 
 ---
 
@@ -264,4 +214,4 @@ Winton awaits.
 
 _"The best stories are lived one lap at a time."_ 🏎️💨
 
-**Season 01 2026 • Week 02 Complete • [Week 01 Deep Dive](weeks/week01/README.md) • [Week 02 Analysis](weeks/week02/README.md)**
+**Season 01 2026 • Week 02 Race Week • [Week 01 Deep Dive](weeks/week01/README.md) • [Week 02 Analysis](weeks/week02/README.md)**

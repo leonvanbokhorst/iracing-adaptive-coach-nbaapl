@@ -20,7 +20,11 @@ _Track Guide: Winton Motor Raceway by Sambo Racing (54% Brake Bias)_
 
 _Full race in Rookie Fixed by midfieldracing219_
 
-In 1997 the original “club” layout was stretched into today’s 3.0 km National Circuit, with the old loop still tucked inside like a matryoshka doll. Touring cars, Formula Ford, the Australian Drivers’ Championship and Supercars’ Winton SuperSprint have all hammered around this place. It didn’t pick the nickname “Australia’s Action Track” by accident: tight sightlines, constant direction changes and short straights mean cars are never far apart for long.
+![Winton Motor Raceway - National Circuit Track Map](images/winton-motor-raceway-national-map.png)
+
+_Track map: 12 corners numbered (1-12), 3.0 km, 4 sectors (S1: Blue, S2: Orange, S3: Green, S4: Purple)_
+
+In 1997 the original "club" layout was stretched into today's 3.0 km National Circuit, with the old loop still tucked inside like a matryoshka doll. Touring cars, Formula Ford, the Australian Drivers’ Championship and Supercars’ Winton SuperSprint have all hammered around this place. It didn’t pick the nickname “Australia’s Action Track” by accident: tight sightlines, constant direction changes and short straights mean cars are never far apart for long.
 
 Dick Johnson once compared Winton to “running a marathon around your clothesline,” and he wasn’t wrong. The track is basically a sequence of linked hairpins, kinks and off-camber transitions, stitched together with just enough straight to make you think you can relax before the next brake zone appears.
 
@@ -250,6 +254,31 @@ Feeds the long straight, so it's all about rotation + exit.
 3. **T1/T2** (opening chicane) - Third, sets up entire opening sequence
 
 **General curb rule:** Aim for white lines at apexes. Elevated curbs = rear grip killers.
+
+---
+
+## Corner Reference (for Telemetry Analysis)
+
+This table maps corner numbers to lap distance percentages, enabling precise telemetry analysis when discussing specific corners.
+
+| Corner | Lap Dist % | Sector | Notes                                                       |
+| :----: | :--------: | :----: | :---------------------------------------------------------- |
+|   T1   |    8.2%    |   S1   | First corner after S/F                                      |
+|   T2   |   11.5%    |   S1   | Fast right-hander almost flat out of the first chicane      |
+|   T3   |   21.1%    |   S1   | Right-hander                                                |
+|   T4   |   27.3%    |   S2   | T-Fork - lift-rotation combo                                |
+|   T5   |   37.5%    |   S2   | Left-hander - long double-apex left                         |
+|   T6   |   44.8%    |   S2   | Fast S with T7 into heavy braking zone                      |
+|   T7   |   48.5%    |   S3   |                                                             |
+|   T8   |   53.5%    |   S3   | Right-hander - stability + minimal distance                 |
+|   T9   |   58.0%    |   S3   | Decreasing radius - second 1st-gear corner                  |
+|  T10   |   70.5%    |   S4   | Right-hander - late brake forces correct late-apex exit     |
+|  T11   |   85.0%    |   S4   | Right-hander - entry-speed corner; exit doesn't matter much |
+|  T12   |   89.5%    |   S4   | Last corner right - coast + punch                           |
+
+**Usage:** When analyzing telemetry, use these lap distance percentages to pinpoint exact corner locations in the data.  
+**Example:** "Spun at T11" → Look at telemetry data around 86% lap distance (LapDistPct ≈ 0.86)
+**Communication:** When discussing corners, use the corner number (T1, T2, etc.) instead of the lap distance percentage.
 
 ---
 

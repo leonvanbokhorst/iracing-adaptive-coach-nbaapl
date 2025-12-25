@@ -9,10 +9,10 @@ AI-powered racing analysis helping Master Lonn get faster through data-driven co
 | Week   | Track     | Status    | Best Lap        | Result                         | Standings                                             |
 | :----- | :-------- | :-------- | :-------------- | :----------------------------- | :---------------------------------------------------- |
 | **01** | Jefferson | ✅        | 50.592s (race)  | Victory + 2 Podiums            | [Standings week 01](weeks/week01/standings-report.md) |
-| **02** | Rudskogen | 🏁 Racing | **1:28.508** 🏆 | **Race PB + Top 500 + Podium** | [Standings week 02](weeks/week02/standings-report.md) |
-| **03** | Winton    | 📅        | TBD             | TBD                            |
+| **02** | Rudskogen | ✅        | **1:28.508** 🏆 | **Race PB + Top 500 + Podium + Pole** | [Standings week 02](weeks/week02/standings-report.md) |
+| **03** | Winton    | 📅 Next   | TBD             | TBD                            | TBD |
 
-**iRating 1436 • 4 Podiums • B License • Global Rank: 505 / 2,179 (Top 23%)**
+**iRating 1494 • Position 294 / 11,394 (Top 2.6%) • 2x Pole • 4 Podiums • 148 Points (97.4%ile) • B License**
 
 Read the [Season Progression Report](weeks/progression/progression-report.md) to see the full story.
 
@@ -152,6 +152,54 @@ The lesson stuck. Applied perfectly without being told. That's not just fast dri
 
 That's racing.
 
+### The Test
+
+December 24th. Two races. One question: could he execute what he'd just learned?
+
+Morning race, qualifying: **1:28.955**. Not just fast. Pole position. P1 on the grid. Front row. First pole of the season. The wheel felt right in his hands, the car dancing through every apex like it knew the choreography.
+
+Then the lights went out.
+
+Turn 1, lap 1: cold tires, adrenaline, defending pole. Spun. P1 → P3. Let two cars by.
+
+Turn 1, lap 2: same corner, same cold tires, same mistake. Spun again. P3 → P7. Let four more by.
+
+He'd thrown away pole position in 60 seconds.
+
+But here's what the data showed that Master Lonn was too frustrated to see: Laps 3 through 10 were clean. Zero incidents. And on lap 3, once the tires warmed and the adrenaline settled? **1:28.613**. Three tenths faster than his qualifying lap. The pace was never missing. The cold tire discipline was.
+
+Finished P5. Gained 17 iRating points despite throwing away a guaranteed podium. Because lap 3 proved something the spin couldn't erase: he's fast when it matters, just needs to survive the first two laps to show it.
+
+_"No cheerleading needed,"_ he said afterward. He knew. He'd made the same mistake twice and knew it both times before the car even stopped spinning.
+
+---
+
+That afternoon, another chance. Qualifying P2, front row again. One adjustment to the mental protocol: survive Turn 1, no attacking on cold tires, wait for lap 3.
+
+Lap 1, Turn 1: executed. Survived clean. Progress.
+
+Lap 1, 15 seconds later: saw a passing opportunity. Someone ahead who'd jumpstarted. The door was open. His brain said "GO NOW."
+
+He went. On lap 1. On cold tires.
+
+Went wide. Off track. 2x incident. P2 → probably P6-7.
+
+_"What a stupid rookie mistake. On cold tires."_
+
+But after that? Seven clean laps. 0.377s consistency—elite precision after making a mistake most drivers would tilt from. Fought back to P4 in a field rated SoF 1567, stronger than his 1453 rating at the time. Best lap: 1:29.108, only half a second off his ultimate PB.
+
+Against better drivers, in a stronger field, he held his ground. **iRating: 1494** (+41). Total gain from season start: +256.
+
+The pattern was clear now. He'd mastered mid-race execution—strategic, clean, fast. He'd mastered quali—pole position, P2, front row becoming routine. He'd mastered recovery—seven clean laps after a lap 1 mistake with no mental spiral.
+
+The only gap left: the first 30-90 seconds after the lights go out. Cold tires plus adrenaline plus opportunity equals impulse overriding strategy. Every time.
+
+But knowing the problem is half the solution. And Master Lonn knows. Two races, same pattern, immediate recognition both times. The impulse won, but the awareness is there.
+
+Week 02 closed out with five races complete: one pole, one P2 quali, one podium, two P4-P5 finishes that should've been podiums. The speed is confirmed—1:28.508, top 500 globally. The setup is optimized—57.5% brake bias working perfectly. The strategic maturity is proven—Position Secured Protocol executed flawlessly under the most chaotic circumstances.
+
+The frontier: survive the first 90 seconds. Then everything else is already championship-level.
+
 ---
 
 ## Jefferson: Where It All Began
@@ -197,30 +245,41 @@ Two podiums. Flow state discovered. Mental resilience proven. Championship DNA c
 **The Numbers**:
 
 - Week 01: 51.438s → 50.592s (victory)
-- Week 02: 1:30.290 → **1:28.508** (race PB + top 500)
-- Races: 6 • Podiums: 4 (1 victory, 3x P3)
-- iRating: 1238 → 1436 (+198)
+- Week 02: 1:30.290 → **1:28.508** (race PB + top 500 + pole)
+- Races: 8 • Podiums: 4 (1 victory, 3x P3) • Poles: 1x P1
+- iRating: 1238 → 1494 (+256)
 - Global: Rank 505 / 2,179 (top 23.2%)
 
 ---
 
 ## What's Next
 
-One more race at Rudskogen this week. Maybe two if time allows. The speed is proven—1:28.508, top 500 globally. The strategic maturity is locked in—Position Secured Protocol executed perfectly under the most chaotic circumstances imaginable.
+Week 02 is complete. Five races. One pole position. One podium. Two races thrown away in the first 90 seconds that should've been podiums. The rest? Championship-level execution.
 
-The question tomorrow: can he put it all together from lap 1? Qualify clean (not overdriving like Dec 22). Start smart (survive the chaos). Execute the protocols (Position Secured when applicable, Mental Reset if incidents happen). Finish races. Stack points.
+The speed is confirmed: 1:28.508 race PB, top 500 globally (505/2,179), +256 iRating in two weeks. The setup is optimized: 57.5% brake bias with clean pedal inputs unlocks peak performance. The strategic maturity is proven: Position Secured Protocol executed perfectly under chaos (got punted, someone flew over him, still finished P3).
 
-68 championship points already. One more P3? That's 98. Clean P1? 103. The week ends December 29th.
+The only gap: Cold Tire Contract execution. Laps 1-2 of every race. The impulse to attack on cold tires before lap 3. Two Dec 24 races, same pattern: qualify front row (P1, P2), throw it away in first 90 seconds (spin, passing attempt), then drive championship-level pace once the mistake is made and the pressure is off.
 
-The speed is confirmed. The setup is optimized (57.5% brake bias working perfectly). The mental game just leveled up (backed off when needed, finished P3 after being PUNTED).
+But knowing the problem is half the solution. And Master Lonn knows. Immediate recognition both times. The impulse won, but the awareness is razor-sharp.
 
-After Week 02, comes Week 03. Winton Motor Raceway. Third track, new test: does the method transfer to completely unfamiliar circuits? Jefferson proved it once (new track → mastery in 3 weeks). Rudskogen validated it (rusty → top 500 in 6 days). Winton will be the tiebreaker.
+**Week 03: Winton Motor Raceway - National**
 
-The pattern is clear: breakthrough technique (early throttle) + setup optimization (brake bias) + strategic maturity (know when to push vs hold) = speed that transfers.
+Third track, new test. Jefferson proved the method works on completely new circuits (new track → mastery in 3 weeks). Rudskogen validated it works returning to familiar ground (rusty → top 500 in 6 days). Winton will be the proof of concept: does everything transfer to the next track?
 
-The leaderboard confirms it. The iRating trajectory proves it (+198 in two weeks).
+The pattern is universal, not track-specific:
+1. Find the brake markers (visual, repeatable)
+2. Breakthrough technique (early throttle application)
+3. Setup optimization (brake bias for driving style)
+4. Strategic maturity (Position Secured Protocol, Mental Reset after incidents)
+5. **Cold Tire Contract v2.0**: NO passing attempts lap 1-2, survive to lap 3, THEN race
 
-Now comes the part where he stacks it, race after race, week after week, proving that lap 7 wasn't lucky and the gladiator podium wasn't a fluke.
+The leaderboard confirms the speed is real. The iRating trajectory proves it's consistent (+256 in two weeks). The data shows it's transferable (Jefferson → Rudskogen, same techniques).
+
+Now comes Winton. New track, new corners, same method. Apply the lessons, execute the protocols, stack the points.
+
+The speed is there. The setup is dialed. The mid-race execution is elite. The mental game is maturing fast.
+
+Just need to survive the lights-out moment. Then everything else is already waiting.
 
 ---
 

@@ -159,20 +159,6 @@ Notice:
 **At current pace (+128/week):** 1.5 weeks away  
 **Conservative pace (+50/week):** 4 weeks away
 
-### iRating Ranges Breakdown
-
-- **0-1000:** 1899 drivers (16.7%) ████████
-- **1000-1500:** 7213 drivers (63.3%) ███████████████████████████████ **← YOU (barely!)**
-- **1500-2000:** 1708 drivers (15.0%) ███████
-- **2000-3000:** 412 drivers (3.6%) █
-- **3000-4000:** 92 drivers (0.8%)
-- **4000-5000:** 39 drivers (0.3%)
-- **5000-10000:** 31 drivers (0.3%)
-
-You're 6 points away from breaking into the **1500-2000 tier** (the "Rising" zone). That's literally one good race.
-
----
-
 ## 🏁 Incident Analysis: Still Very Strong
 
 | Metric              | Your Value | Series Avg | Your Standing                  |

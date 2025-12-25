@@ -927,7 +927,17 @@
     "Division promotion likely: Performing at Division 1 points level (148 vs 138.6 avg) while in Division 8 = promotion to Div 6-7 expected Week 03",
     "Data shows strong early performance: Speed is real (97.4% points), racecraft developing (top 7.7% clean), consistency good (89% avg finish despite starts)",
     "Master Lonn's ADHD pattern in data: Strong qualifying (96%) > Clean mid-race > Struggle at starts (7% gap) = impulse control shows in percentiles",
-    "Cold tire discipline is THE unlock: Fix 30-90 seconds of impulse control → 96th %ile qualifying becomes 96th %ile finishing → Top 100 in reach"
+    "Cold tire discipline is THE unlock: Fix 30-90 seconds of impulse control → 96th %ile qualifying becomes 96th %ile finishing → Top 100 in reach",
+    "PROGRESSION REPORT CREATED (Dec 25): Week 01 → Week 02 narrative analysis showing trajectory and patterns",
+    "Two-week progression shows: +256 iRating (+128/week avg), +455 positions climbed, 65.6% → 79.6% iRating percentile (+14%), 92% → 97.4% points percentile (+5.4%)",
+    "Jefferson vs Rudskogen comparison: Rudskogen improvement 2.1x faster (-1.782s in 7 days vs -0.846s) = returning to known track > learning new track",
+    "Qualify-to-finish gap identified in data: 96th %ile qualifying vs 89th %ile finishing = 7-percentile gap from cold tire starts",
+    "Projection models created: Conservative (+50/week), Current Pace (+128/week), Realistic (+75/week after natural slowdown)",
+    "Realistic end-of-season projection: ~2244 iR (90-95th %ile), Top 75-100, Division 4-5 IF trend continues",
+    "Weekly snapshot workflow established: Save CSV to data/standings/weekXX/ after each week for progression visualization",
+    "Week 02 CSV snapshot saved: data/standings/week02/season-standings-week02.csv as baseline for future progression charts",
+    "Week 01→02 progression charts created manually: iRating (+117), position climb (+455), percentile trends using standings report data",
+    "Three progression visualizations now in progression report: iRating trajectory chart, position climb chart, percentile rankings multi-line chart"
   ]
 }
 

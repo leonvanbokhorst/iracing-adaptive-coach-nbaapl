@@ -20,6 +20,10 @@ _Track Guide: Winton Motor Raceway by Sambo Racing (54% Brake Bias)_
 
 _Full race in Rookie Fixed by midfieldracing219_
 
+[![Winton Motor Raceway – Real racing essay](https://img.youtube.com/vi/B-S1X5PYC94/0.jpg)](https://www.youtube.com/watch?v=B-S1X5PYC94)
+
+_Real racing essay by Formula Zac_
+
 ![Winton Motor Raceway - National Circuit Track Map](images/winton-motor-raceway-national-map.png)
 
 _Track map: 12 corners numbered (1-12), 3.0 km, 4 sectors (S1: Blue, S2: Orange, S3: Green, S4: Purple)_

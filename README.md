@@ -157,6 +157,32 @@ The rust doesn't slow him down anymore. It never stood a chance.
 
 ---
 
+## Racing Knowledge Base 📚
+
+Master Lonn's technical education library:
+
+### Core Guides
+
+- **[Weight Transfer Guide](docs/weight-transfer-guide.md)** - How forces move load around the car (LINEAR movements: longitudinal, lateral, vertical G)
+- **[Rotation & Balance Guide](docs/rotation-and-balance-guide.md)** - How the car rotates and responds (ROTATIONAL movements: roll, pitch, yaw) + How to see it in telemetry
+- **[Gears & Shifting Guide](docs/gears-and-shifting-guide.md)** - Gear stacks, engine braking, rotation management, and sound-based shifting (SHORT vs TALL stacks explained!)
+- **[Trail Braking Technique Guide](docs/trail-braking-technique-guide.md)** - The art of managing brake → turn transition
+
+### Technical References
+
+- **[G-Force Analysis Guide](docs/g-force-analysis-guide.md)** - Understanding acceleration data
+- **[iRating Tier System](docs/irating-tier-system.md)** - How the ladder works
+- **[Track Terminology Guide](docs/track-terminology-guide.md)** - Racing vocabulary explained
+
+### Car & Track Profiles
+
+- **Car**: [Ray FF1600](cars/car-ray-ff1600.md) - 116hp, treaded tires, momentum racing
+- **Tracks**: [Season 01 2026 tracks](tracks/) - Jefferson, Rudskogen, Winton, and more
+
+**Start here if you're new:** Weight Transfer → Rotation & Balance → Trail Braking (in that order!)
+
+---
+
 _Read the detailed [Season Progression Report](weeks/progression/progression-report.md) for the full story._
 
 _Current week: [Week 03 - Winton](weeks/week03/README.md)_

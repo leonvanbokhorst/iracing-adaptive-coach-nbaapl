@@ -51,8 +51,9 @@ def calculate_traction_usage(df):
         print(f"   Removed {len(df) - wrap_idx[0] + 1} wrap-around rows at end of lap")
     
     # Convert from m/s² to G's (1G = 9.8 m/s²)
-    df['LongG_raw'] = df['LongAccel'] / 9.8  # Positive = acceleration, negative = braking
-    df['LatG_raw'] = df['LatAccel'] / 9.8    # Positive = left turn, negative = right turn
+    # STANDARD RACING CONVENTION: Braking = positive (up), Acceleration = negative (down)
+    df['LongG_raw'] = -(df['LongAccel'] / 9.8)  # Positive = braking, negative = acceleration
+    df['LatG_raw'] = df['LatAccel'] / 9.8       # Positive = left turn, negative = right turn
     
     # Apply smoothing to remove spikes/noise (rolling average, 10 samples ~= 0.1 seconds at 100Hz)
     window = 10
@@ -113,9 +114,9 @@ def plot_single_lap(df, lap_name, output_path=None):
     ax.axhline(y=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
     ax.axvline(x=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
     
-    # Add quadrant labels
-    ax.text(0.05, 0.8, 'ACCEL', ha='left', va='center', fontsize=10, fontweight='bold', alpha=0.5)
-    ax.text(0.05, -0.8, 'BRAKE', ha='left', va='center', fontsize=10, fontweight='bold', alpha=0.5)
+    # Add quadrant labels (STANDARD RACING CONVENTION)
+    ax.text(0.05, 0.8, 'BRAKE', ha='left', va='center', fontsize=10, fontweight='bold', alpha=0.5)
+    ax.text(0.05, -0.8, 'ACCEL', ha='left', va='center', fontsize=10, fontweight='bold', alpha=0.5)
     ax.text(0.8, 0.05, 'LEFT', ha='center', va='bottom', fontsize=10, fontweight='bold', alpha=0.5)
     ax.text(-0.8, 0.05, 'RIGHT', ha='center', va='bottom', fontsize=10, fontweight='bold', alpha=0.5)
     
@@ -125,7 +126,7 @@ def plot_single_lap(df, lap_name, output_path=None):
     ax.set_aspect('equal')
     ax.grid(True, alpha=0.3, linestyle=':', linewidth=0.5)
     ax.set_xlabel('Lateral G (← Right | Left →)', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Longitudinal G (↓ Brake | Accel ↑)', fontsize=12, fontweight='bold')
+    ax.set_ylabel('Longitudinal G (↑ Brake | Accel ↓)', fontsize=12, fontweight='bold')
     ax.set_title(f'Your Path on the Traction Circle\n{lap_name}', 
                 fontsize=13, fontweight='bold', pad=15)
     ax.legend(loc='upper left', fontsize=9, framealpha=0.9)
@@ -218,7 +219,7 @@ def plot_comparison(df1, df2, name1, name2, output_path=None):
     ax.set_aspect('equal')
     ax.grid(True, alpha=0.2, linestyle=':', linewidth=0.5)
     ax.set_xlabel('Lateral G (← Right | Left →)', fontsize=11)
-    ax.set_ylabel('Longitudinal G (↓ Brake | Accel ↑)', fontsize=11)
+    ax.set_ylabel('Longitudinal G (↑ Brake | Accel ↓)', fontsize=11)
     ax.set_title('Traction Circle Comparison (Smoothed)\n' + 
                 'Bold Lines = Sustained Force | Light Dots = Raw Data',
                 fontsize=13, fontweight='bold', pad=20)

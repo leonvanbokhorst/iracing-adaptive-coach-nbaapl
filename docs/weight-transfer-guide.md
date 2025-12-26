@@ -170,6 +170,89 @@ The open differential means:
 
 **Golden Rule:** Apply throttle **progressively** to keep load balanced across both rear tires.
 
+### Engine Braking vs Brake Pedal
+
+There are **two ways to slow the car**, each with different weight transfer characteristics:
+
+#### Brake Pedal Method
+
+**What it is:** Using the brake pedal to create friction at the wheels (brake pads clamping rotors).
+
+**Weight transfer characteristic:**
+
+- **Sudden, sharp forward weight transfer**
+- Front suspension compresses quickly
+- Rear unloads rapidly
+- Maximum stopping power available
+
+**When to use:**
+
+- Heavy braking zones (need maximum deceleration)
+- Slow corners requiring significant speed scrub
+- Emergency situations
+
+**Feel:** Sharp nose dive, harness tension, immediate weight shift
+
+#### Engine Braking Method
+
+**What it is:** Using drivetrain resistance to slow the car (downshift while lifting throttle, minimal or no brake pedal).
+
+**Weight transfer characteristic:**
+
+- **Gradual, progressive forward weight transfer**
+- Weight shifts forward smoothly through drivetrain
+- Car stays more balanced and settled
+- Less maximum stopping power, but more control
+
+**When to use:**
+
+- Momentum corners (want to maintain flow and balance)
+- When you need to rotate the car naturally
+- Technical sections where platform stability matters
+- Combination with light brake pedal for fine control
+
+**Feel:** Smooth deceleration, car stays settled, progressive weight shift
+
+#### The Key Difference
+
+**It's not about WHERE the force is applied** (both slow the car). It's about **HOW GRADUALLY** the weight transfers:
+
+- **Brake pedal:** Like hitting a wall → sudden weight shift → can upset balance
+- **Engine braking:** Like rolling resistance → smooth weight shift → maintains platform stability
+
+#### Real-World Example: Winton T5-6 (Momentum Corner)
+
+**VRS Coach Approach (Fast):**
+
+1. Lift throttle (no brake pedal)
+2. Early downshift to 3rd gear → engine braking slows car progressively
+3. Car rotates naturally, stays balanced
+4. Maintains momentum, tight line possible
+5. Already in correct gear for power application
+
+**Brake Pedal Approach (Slower):**
+
+1. Brake pedal applied
+2. Sudden forward weight transfer
+3. Scrubs ~14 km/h of speed (over-slowing)
+4. Platform upset, need wider line to compensate (1.5m wider)
+5. Have to work harder mid-corner to make up lost momentum
+
+**The Result:** Engine braking maintains the "much calmer" momentum approach, allowing a tighter, faster line with better balance.
+
+#### Combined Technique: Both Together
+
+Many corners benefit from **combining both methods**:
+
+1. **Initial brake (pedal):** Load the front for turn-in
+2. **Downshift (engine braking):** Progressive additional braking + gear selection
+3. **Trail brake release (pedal):** Fine-tune turn-in while engine braking continues
+4. **Power application:** Already in correct gear, smooth transition
+
+**The advantage:** You get maximum stopping power when you need it, plus the smooth platform control of engine braking.
+
+**Little Padawan's tip:** Think of engine braking as a "momentum management tool" and brake pedal as a "speed scrubbing tool." Use the right tool for each corner type.
+
 ### Visual: Longitudinal Load Transfer
 
 ```
@@ -180,13 +263,23 @@ STATIC (No Braking/Acceleration)
    45%         55%
   FRONT       REAR
 
-BRAKING (Heavy)
+BRAKING (Heavy Brake Pedal)
       CoG→
        ●
     ▲           ▲
    70%         30%
   FRONT       REAR
   (More grip)  (Less grip, lockup risk)
+  Sharp transfer
+
+BRAKING (Engine Braking)
+     CoG→
+      ●
+    ▲           ▲
+   60%         40%
+  FRONT       REAR
+  (Good grip)  (Still planted)
+  Gradual transfer
 
 ACCELERATION (Hard)
          ←CoG
@@ -631,13 +724,14 @@ Speed:    \__/‾‾‾‾  ← Lower minimum, car unsettled
 - **More rear bias** = More rear braking force = Rear unloads faster (can lock/spin)
 - **More front bias** = More front braking force = Front loads more, harder to turn
 
-**FF1600 sweet spot:** ~48-52% front bias (varies by track/driver)
+**FF1600 sweet spot:** ~60-63% front bias (varies by track/driver)
 
 **Recommendation:**
 
-- Start conservative (48-50% front) for stability
-- Add rear bias (51-52% front) for more rotation
-- Too much rear (53%+) = lockups and spins
+- Start conservative (60-62% front) for stability under braking
+- Reduce front bias (58-59% front) if you want more rotation (but risk rear lockup)
+- Increase front bias (63-64% front) if rear feels unstable (but may cause understeer)
+- Adjust in 1-2% increments based on track and feel
 
 ### 2. Anti-Roll Bars (ARBs)
 
@@ -794,6 +888,89 @@ _Left: Smooth trail braking stays on the circle throughout the corner. Right: Ab
 - Bias that worked early in stint locks rears late in stint
 
 **The fix:** Adjust bias during the race/session as needed (can do this on the fly in FF1600).
+
+---
+
+## Weight Transfer vs Rotation: The Connection
+
+### What This Guide Covers (Forces)
+
+This guide is all about **LINEAR movements** - the forces that move load around:
+
+- **Longitudinal G** - Forward/backward forces (braking/acceleration)
+- **Lateral G** - Side-to-side forces (cornering)
+- **Vertical G** - Up/down forces (bumps, compression)
+
+**These are the FORCES acting on the car.**
+
+### What the Rotation Guide Covers (Responses)
+
+The **[Rotation & Balance Guide](rotation-and-balance-guide.md)** explains **ROTATIONAL movements** - how the car responds to those forces:
+
+- **Roll** - Body leaning left/right in corners
+- **Pitch** - Nose dive (braking) and squat (acceleration)
+- **Yaw** - Car spinning/rotating (understeer/oversteer)
+
+**These are the CAR'S RESPONSES to the forces.**
+
+### How They Connect
+
+```
+WEIGHT TRANSFER (Forces)  →  ROTATION (Responses)
+─────────────────────────────────────────────────
+
+Lateral G force           →  Roll (body leans)
+Longitudinal G force      →  Pitch (nose dives/squats)
+Combined G forces         →  Yaw (car rotates)
+```
+
+**Example: Corner Entry**
+
+1. **You brake hard** → Longitudinal G force (weight transfer guide)
+2. **Nose dives, weight rushes forward** → Pitch rotation (rotation guide)
+3. **Front tires load up, get grip** → Weight transfer effect
+4. **You turn in** → Lateral G force (weight transfer guide)
+5. **Body rolls to outside** → Roll rotation (rotation guide)
+6. **Car rotates toward apex** → Yaw rotation (rotation guide)
+
+### Visual: How Forces Create Rotation
+
+Each type of force creates a specific rotation response:
+
+**Longitudinal Force → Pitch:**
+
+![Longitudinal to Pitch](../assets/longitudinal-pitch-pair.png)
+
+**Lateral Force → Roll:**
+
+![Lateral to Roll](../assets/lateral-roll-pair.png)
+
+**Combined Forces → Yaw:**
+
+![Combined to Yaw](../assets/combined-yaw-pair.png)
+
+_Understanding the connection: **This guide** teaches you the forces (left side of each pair). The **[Rotation Guide](rotation-and-balance-guide.md)** teaches you what the car does in response (right side of each pair)._
+
+**The key insight:**
+
+- **This guide** teaches you HOW MUCH load is moving and WHERE it's going
+- **Rotation guide** teaches you HOW THE CAR MOVES in response and what that LOOKS LIKE in telemetry
+
+### When to Read Which Guide
+
+**Start here (Weight Transfer)** if you want to understand:
+- Why trail braking works
+- Why early throttle helps
+- How to manage the traction circle
+- The physics of grip
+
+**Then read [Rotation & Balance](rotation-and-balance-guide.md)** if you want to understand:
+- Why the car pushes wide (understeer)
+- Why the rear steps out (oversteer)
+- How to diagnose handling problems from telemetry
+- What "nervous" or "won't turn" actually means in data
+
+**Finally read [Trail Braking Technique](trail-braking-technique-guide.md)** to put it all into practice!
 
 ---
 

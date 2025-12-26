@@ -506,15 +506,19 @@ Eric Wong's secret? He doesn't go harder. He goes **smoother**.
 
 ## 🎯 Week 03 Strategy
 
-**Session 1 Status**: ✅ Exploration + PB achieved  
-**Next Up**: Session 2 - Sector 4 deep dive
+**Session 1 Status**: ✅ Exploration + PB achieved + Eric Wong comparison analyzed  
+**Next Up**: Session 2 - "Much Calmer" approach
+
+**The Breakthrough Discovery:**
+
+Eric Wong's gear trace revealed the secret: **"Much calmer"** - maintaining momentum with higher gears, not over-slowing. He uses 1st gear ONCE (T9). Stays in 3rd at T3, 4th through T6-T7. Not about being aggressive - about being **smooth and maintaining flow**.
 
 **The Plan:**
 
-1. **Session 2**: Focus on S4 consistency (T10, T11, T12 mastery)
-2. **Session 3+**: Push toward 1:26.141 theoretical optimal
+1. **Session 2**: Focus on **T5 smoothness** (0.7s gain - biggest opportunity) + **momentum approach** ("much calmer" - let gears happen naturally)
+2. **Session 3+**: Apply momentum approach to all corners, push toward 1:26.141 theoretical optimal
 3. **Race Prep**: Cold Tire Contract execution (no lap 1/2 heroics!)
-4. **Season Goal**: Close the 2.4s gap to alien pace (1:24.096)
+4. **Season Goal**: Close the 2.4s gap to alien pace (1:24.296 Eric Wong) through flow, not force
 
 **Race Week Mental Note:**
 Remember: Beating the PB in practice ≠ Race execution. The Cold Tire Contract is CRITICAL. Don't let excitement override discipline.

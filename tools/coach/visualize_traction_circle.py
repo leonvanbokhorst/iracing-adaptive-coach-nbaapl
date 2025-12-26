@@ -31,15 +31,15 @@ def create_traction_circle_basic(output_path=None):
     
     # Example points from the guide (CLEAN, NON-OVERLAPPING)
     # X-axis: LEFT turn = positive (right), RIGHT turn = negative (left)
-    # Y-axis: ACCELERATION = positive (up), BRAKING = negative (down)
+    # Y-axis: BRAKING = positive (up), ACCELERATION = negative (down) ← STANDARD RACING CONVENTION
     examples = [
         # (lateral, longitudinal, label, color, offset_x, offset_y, ha)
-        (0.0, -1.0, "Straight\nBraking", '#e74c3c', 0.3, 0.0, 'left'),
-        (0.707, -0.707, "Trail Braking\n(70.7% + 70.7%)", '#3498db', -0.35, 0.0, 'right'),
-        (0.866, -0.5, "Light Trail", '#9b59b6', 0.15, -0.1, 'left'),
-        (1.0, 0.0, "Pure\nCornering", '#f39c12', 0.15, 0.0, 'left'),
-        (0.0, 1.0, "Full\nThrottle", '#2ecc71', -0.15, 0.1, 'right'),
-        (1.05, -1.05, "OVER LIMIT\nSliding!", '#ff0000', -0.15, 0.1, 'right'),
+        (0.0, 1.0, "Straight\nBraking", '#e74c3c', 0.25, 0.0, 'left'),
+        (0.707, 0.707, "Trail Braking\n(70.7% + 70.7%)", '#3498db', -0.35, -0.05, 'right'),
+        (0.866, 0.5, "Light Trail", '#9b59b6', 0.2, 0.0, 'left'),
+        (1.0, 0.0, "Pure\nCornering", '#f39c12', 0.2, 0.0, 'left'),
+        (0.0, -1.0, "Full\nThrottle", '#2ecc71', -0.2, -0.05, 'right'),
+        (1.05, 1.05, "OVER LIMIT\nSliding!", '#ff0000', 0.05, 0.15, 'left'),
     ]
     
     # Plot points
@@ -63,9 +63,9 @@ def create_traction_circle_basic(output_path=None):
     ax.axhline(y=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
     ax.axvline(x=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
     
-    # Add quadrant labels (HUMAN-ORIENTED!)
-    ax.text(0.05, 0.5, 'ACCELERATION', ha='left', va='center', fontsize=12, fontweight='bold')
-    ax.text(0.05, -0.5, 'BRAKING', ha='left', va='center', fontsize=12, fontweight='bold')
+    # Add quadrant labels (STANDARD RACING CONVENTION!)
+    ax.text(0.05, 0.5, 'BRAKING', ha='left', va='center', fontsize=12, fontweight='bold')
+    ax.text(0.05, -0.5, 'ACCELERATION', ha='left', va='center', fontsize=12, fontweight='bold')
     ax.text(0.5, 0.05, 'LEFT TURN', ha='center', va='bottom', fontsize=12, fontweight='bold')
     ax.text(-0.5, 0.05, 'RIGHT TURN', ha='center', va='bottom', fontsize=12, fontweight='bold')
     
@@ -75,8 +75,8 @@ def create_traction_circle_basic(output_path=None):
     ax.set_aspect('equal')
     ax.grid(True, alpha=0.3, linestyle=':', linewidth=0.5)
     ax.set_xlabel('Lateral Force (← Right Turn | Left Turn →)', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Longitudinal Force (↓ Braking | Acceleration ↑)', fontsize=12, fontweight='bold')
-    ax.set_title('The Traction Circle: How Forces Combine on a Tire\n(As YOU Feel It in the Car)', 
+    ax.set_ylabel('Longitudinal Force (↑ Braking | Acceleration ↓)', fontsize=12, fontweight='bold')
+    ax.set_title('The Traction Circle: How Forces Combine on a Tire\n(Standard Racing Convention)', 
                 fontsize=14, fontweight='bold', pad=20)
     
     # Add legend
@@ -114,33 +114,37 @@ def create_trail_braking_path(output_path=None):
     ax.add_patch(circle_fill)
     
     # Create trail braking path (LEFT turn)
-    # Typical path: brake hard → trail brake into corner → apex → power out
+    # Typical path: full throttle → lift → brake hard → trail brake → apex → power out
     # X-axis: lateral (left turn = positive right)
-    # Y-axis: longitudinal (acceleration = up, braking = down)
+    # Y-axis: longitudinal (BRAKING = up, ACCELERATION = down) ← STANDARD RACING CONVENTION
     
     phases = [
-        # Phase 1: Heavy braking (straight line)
-        {'lateral': np.zeros(20), 'longitudinal': np.linspace(-0.3, -1.0, 20),
-         'label': '1. Heavy Braking', 'color': '#e74c3c'},
+        # Phase 0: Full throttle on straight (approaching corner)
+        {'lateral': np.zeros(10), 'longitudinal': np.linspace(-1.0, -0.8, 10),
+         'label': '0. Full Throttle', 'color': '#2ecc71'},
+        
+        # Phase 1: Lift and brake transition
+        {'lateral': np.zeros(15), 'longitudinal': np.linspace(-0.8, 1.0, 15),
+         'label': '1. Lift → Brake', 'color': '#e74c3c'},
         
         # Phase 2: Trail braking (reducing brake, adding left turn)
         {'lateral': np.sqrt(1.0 - np.linspace(1.0, 0.4, 30)**2),
-         'longitudinal': -np.linspace(1.0, 0.4, 30),
+         'longitudinal': np.linspace(1.0, 0.4, 30),
          'label': '2. Trail Braking', 'color': '#3498db'},
         
         # Phase 3: Apex (minimal brake, max left turn)
         {'lateral': np.sqrt(1.0 - np.linspace(0.4, 0.0, 15)**2),
-         'longitudinal': -np.linspace(0.4, 0.0, 15),
+         'longitudinal': np.linspace(0.4, 0.0, 15),
          'label': '3. Apex', 'color': '#f39c12'},
         
         # Phase 4: Exit (adding throttle, reducing left turn)
         {'lateral': np.sqrt(1.0 - np.linspace(0.0, 0.7, 25)**2),
-         'longitudinal': np.linspace(0.0, 0.7, 25),
+         'longitudinal': -np.linspace(0.0, 0.7, 25),
          'label': '4. Power Out', 'color': '#9b59b6'},
         
-        # Phase 5: Full throttle (straightening)
+        # Phase 5: Full throttle (straightening onto next straight)
         {'lateral': np.sqrt(1.0 - np.linspace(0.7, 1.0, 15)**2) * np.linspace(1, 0.3, 15),
-         'longitudinal': np.linspace(0.7, 1.0, 15),
+         'longitudinal': -np.linspace(0.7, 1.0, 15),
          'label': '5. Full Throttle', 'color': '#2ecc71'},
     ]
     
@@ -162,18 +166,18 @@ def create_trail_braking_path(output_path=None):
                     linewidth=2, zorder=3)
     
     # Add start and finish markers
-    ax.scatter(0, -0.3, s=300, c='green', marker='v', 
-              edgecolors='black', linewidths=2, zorder=4, label='Start (Brake)')
-    ax.scatter(phases[-1]['lateral'][-1], 1.0, s=300, c='red', marker='^',
-              edgecolors='black', linewidths=2, zorder=4, label='Finish (Accel)')
+    ax.scatter(0, -1.0, s=300, c='green', marker='v', 
+              edgecolors='black', linewidths=2, zorder=4, label='Start (Full Throttle)')
+    ax.scatter(phases[-1]['lateral'][-1], -1.0, s=300, c='red', marker='^',
+              edgecolors='black', linewidths=2, zorder=4, label='Finish (Full Throttle)')
     
     # Draw axes
     ax.axhline(y=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
     ax.axvline(x=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
     
-    # Add quadrant labels (HUMAN-ORIENTED!)
-    ax.text(0.05, 0.65, 'ACCELERATION', ha='left', va='center', fontsize=12, fontweight='bold')
-    ax.text(0.05, -0.65, 'BRAKING', ha='left', va='center', fontsize=12, fontweight='bold')
+    # Add quadrant labels (STANDARD RACING CONVENTION!)
+    ax.text(0.05, 0.65, 'BRAKING', ha='left', va='center', fontsize=12, fontweight='bold')
+    ax.text(0.05, -0.65, 'ACCELERATION', ha='left', va='center', fontsize=12, fontweight='bold')
     ax.text(0.65, 0.05, 'LEFT\nTURN', ha='center', va='bottom', fontsize=12, fontweight='bold')
     
     # Styling
@@ -182,8 +186,8 @@ def create_trail_braking_path(output_path=None):
     ax.set_aspect('equal')
     ax.grid(True, alpha=0.3, linestyle=':', linewidth=0.5)
     ax.set_xlabel('Lateral Force (← Right Turn | Left Turn →)', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Longitudinal Force (↓ Braking | Acceleration ↑)', fontsize=12, fontweight='bold')
-    ax.set_title('Trail Braking Path Through a Left Turn\n(As YOU Feel It: Brake Down → Turn Right → Accel Up)', 
+    ax.set_ylabel('Longitudinal Force (↑ Braking | Acceleration ↓)', fontsize=12, fontweight='bold')
+    ax.set_title('Complete Corner Path Through a Left Turn\n(From Full Throttle → Brake → Trail Brake → Apex → Power Out)', 
                 fontsize=14, fontweight='bold', pad=20)
     
     # Add legend
@@ -191,10 +195,10 @@ def create_trail_braking_path(output_path=None):
     
     # Add description
     desc_text = (
-        "Perfect trail braking keeps the tire at the grip limit (on the circle)\n"
-        "throughout the corner, maximizing speed and control."
+        "The complete corner: Full throttle → Lift → Brake hard → Trail brake → Apex → Power out.\n"
+        "Perfect trail braking keeps the tire at the grip limit throughout."
     )
-    ax.text(0, -0.2, desc_text, ha='center', fontsize=10, 
+    ax.text(0.65, -0.25, desc_text, ha='center', fontsize=9, 
            style='italic', bbox=dict(boxstyle='round,pad=0.7', 
            facecolor='wheat', alpha=0.5))
     
@@ -216,29 +220,31 @@ def create_comparison_good_vs_bad(output_path=None):
     
     # Good path (smooth)
     # X-axis: lateral (left turn = positive right)
-    # Y-axis: longitudinal (acceleration = up, braking = down)
+    # Y-axis: longitudinal (BRAKING = up, ACCELERATION = down) ← STANDARD RACING CONVENTION
     ax = ax1
     circle = plt.Circle((0, 0), 1.0, color='#2ecc71', fill=False, linewidth=3)
     ax.add_patch(circle)
     circle_fill = plt.Circle((0, 0), 1.0, color='#2ecc71', alpha=0.1)
     ax.add_patch(circle_fill)
     
-    # Smooth path around circle (LEFT TURN)
+    # Smooth path around circle (LEFT TURN) - Starting from full throttle
     lateral_smooth = np.concatenate([
-        np.zeros(15),  # Straight
-        np.sqrt(np.maximum(0, 1.0 - np.linspace(1.0, 0.0, 30)**2)),  # Adding left turn
+        np.zeros(10),  # Full throttle on straight
+        np.zeros(15),  # Lift and brake
+        np.sqrt(np.maximum(0, 1.0 - np.linspace(1.0, 0.0, 30)**2)),  # Trail brake + turn
         np.sqrt(np.maximum(0, 1.0 - np.linspace(0.0, 0.8, 25)**2)) * np.linspace(1, 0.5, 25),  # Exit
     ])
     longitudinal_smooth = np.concatenate([
-        -np.linspace(0.2, 1.0, 15),  # Brake
-        -np.linspace(1.0, 0.0, 30),  # Trail brake
-        np.linspace(0.0, 0.8, 25),   # Throttle
+        np.linspace(-1.0, -0.8, 10),  # Full throttle
+        np.linspace(-0.8, 1.0, 15),   # Lift and brake
+        np.linspace(1.0, 0.0, 30),    # Trail brake
+        -np.linspace(0.0, 0.8, 25),   # Power out
     ])
     
     ax.plot(lateral_smooth, longitudinal_smooth, color='#2ecc71', linewidth=4, 
-           label='Smooth Trail Braking', zorder=2)
+           label='Smooth (Full Corner)', zorder=2)
     ax.scatter(lateral_smooth[0], longitudinal_smooth[0], s=200, c='green', marker='v', 
-              edgecolors='black', linewidths=2, zorder=3)
+              edgecolors='black', linewidths=2, zorder=3, label='Start (Full Throttle)')
     
     ax.axhline(y=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
     ax.axvline(x=0, color='gray', linestyle='--', linewidth=1, alpha=0.5)
@@ -247,7 +253,7 @@ def create_comparison_good_vs_bad(output_path=None):
     ax.set_aspect('equal')
     ax.grid(True, alpha=0.3)
     ax.set_xlabel('Lateral Force (Left Turn →)', fontsize=11, fontweight='bold')
-    ax.set_ylabel('Longitudinal Force (↓ Brake | Accel ↑)', fontsize=11, fontweight='bold')
+    ax.set_ylabel('Longitudinal Force (↑ Brake | Accel ↓)', fontsize=11, fontweight='bold')
     ax.set_title('✅ GOOD: Smooth Weight Transfer\n(Stays on the circle)', 
                 fontsize=13, fontweight='bold', color='#2ecc71', pad=15)
     ax.legend(loc='upper right', fontsize=10)
@@ -259,17 +265,17 @@ def create_comparison_good_vs_bad(output_path=None):
     circle_fill = plt.Circle((0, 0), 1.0, color='#2ecc71', alpha=0.1)
     ax.add_patch(circle_fill)
     
-    # Abrupt path with overshoot (LEFT TURN)
-    lateral_bad = np.array([0.0, 0.0, 0.0, 0.4, 0.9, 0.9, 1.0, 1.0, 0.8, 0.8, 0.4])
-    longitudinal_bad = np.array([-0.2, -1.0, -1.0, -0.6, -0.6, 0.0, 0.0, 0.3, 0.3, 0.8, 0.8])
+    # Abrupt path with overshoot (LEFT TURN) - Starting from full throttle
+    lateral_bad = np.array([0.0, 0.0, 0.0, 0.0, 0.4, 0.9, 0.9, 1.0, 1.0, 0.8, 0.8, 0.4])
+    longitudinal_bad = np.array([-1.0, -0.8, 0.2, 1.0, 0.6, 0.6, 0.0, 0.0, -0.3, -0.3, -0.8, -0.8])
     
     ax.plot(lateral_bad, longitudinal_bad, color='#e74c3c', linewidth=4, 
-           linestyle='--', label='Abrupt Transitions', zorder=2)
+           linestyle='--', label='Abrupt (Full Corner)', zorder=2)
     ax.scatter(lateral_bad[0], longitudinal_bad[0], s=200, c='green', marker='v', 
               edgecolors='black', linewidths=2, zorder=3)
     
-    # Mark overshoot points
-    overshoot_indices = [4, 6]
+    # Mark overshoot points (adjusted for new path length)
+    overshoot_indices = [5, 7]
     ax.scatter(lateral_bad[overshoot_indices], longitudinal_bad[overshoot_indices], 
               s=300, c='red', marker='x', linewidths=4, zorder=4, 
               label='⚠️ Over Limit (Sliding!)')
@@ -281,7 +287,7 @@ def create_comparison_good_vs_bad(output_path=None):
     ax.set_aspect('equal')
     ax.grid(True, alpha=0.3)
     ax.set_xlabel('Lateral Force (Left Turn →)', fontsize=11, fontweight='bold')
-    ax.set_ylabel('Longitudinal Force (↓ Brake | Accel ↑)', fontsize=11, fontweight='bold')
+    ax.set_ylabel('Longitudinal Force (↑ Brake | Accel ↓)', fontsize=11, fontweight='bold')
     ax.set_title('❌ BAD: Abrupt Weight Transfer\n(Exceeds the circle)', 
                 fontsize=13, fontweight='bold', color='#e74c3c', pad=15)
     ax.legend(loc='upper right', fontsize=10)

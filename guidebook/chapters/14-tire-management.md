@@ -536,7 +536,7 @@ Patient approach wins. You didn't need to be fastest early—you needed to be fa
 
 ---
 
-**Next Chapter:** [Chapter 15: The Art of the Setup](15-vehicle-tuning.md)  
+**Next Chapter:** [Chapter 15: Vehicle Tuning](15-vehicle-tuning/README.md)  
 **Previous Chapter:** [Chapter 13: Racecraft](13-racecraft/README.md)
 
 ---

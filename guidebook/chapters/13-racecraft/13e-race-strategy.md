@@ -179,7 +179,7 @@ The skill is there. Now it's about managing the chaos.
 **Related Advanced Topics:**
 - [Chapter 14: Tire Management](../14-tire-management.md) - Long race strategy
 - [Chapter 12: Mental Game](../12-mental-game.md) - Pressure management, 10-second rule
-- [Chapter 15: Vehicle Tuning](../15-vehicle-tuning.md) - Setup adjustments
+- [Chapter 15: Vehicle Tuning](../15-vehicle-tuning/README.md) - Setup adjustments
 
 **Or return to:** [Chapter 13 Overview](README.md)
 

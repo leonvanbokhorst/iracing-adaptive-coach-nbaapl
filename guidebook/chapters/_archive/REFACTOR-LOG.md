@@ -442,21 +442,147 @@ Total: 1806 lines (across 6 focused files)
 
 ---
 
+---
+
+## 2025-12-27: Chapter 15 Vehicle Tuning Refactor
+
+**Reason:** File hit 724 lines BUT 70% content NOT APPLICABLE to Ray FF1600 fixed setup (pain score: 18/10 CRITICAL)
+
+**Strategy Used:** Split into Fixed vs. Open Setup (Strategy B + D hybrid)
+
+**Special Case:** Most content about ARBs, tire pressure, etc. = LOCKED in fixed setup. Can't use it!
+
+### Original Structure
+```
+15-vehicle-tuning.md (724 lines, setup theory for open setup series)
+```
+
+### Problem Identified
+**Ray FF1600 = FIXED SETUP racing:**
+- ✅ Can adjust: Brake bias (in-car)
+- ❌ LOCKED: ARBs, springs, dampers, gearing, tire pressure, etc.
+
+**Result:** ~500 lines of content Master Lonn can't use NOW!
+
+### New Structure
+```
+15-vehicle-tuning/
+├── README.md                          (141 lines - why this matters, when to read each)
+├── quick-reference.md                 (154 lines - brake bias cheat sheet)
+├── 15a-fixed-setup-guide.md           (438 lines - APPLICABLE to fixed setup)
+└── 15b-open-setup-reference.md        (553 lines - for future open setup series)
+
+Total: 1286 lines (across 4 files)
+```
+
+### Content Distribution
+
+**README.md** (141 lines)
+- Fixed setup reality check (what's locked, what's adjustable)
+- Guide navigation (which to read now vs. later)
+- Master Lonn's setup journey
+- Key insight: Everyone has same car, technique = edge
+
+**quick-reference.md** (154 lines)
+- Brake bias quick guide (only applicable adjustment)
+- When to move forward/backward
+- Testing process
+- Driver vs. setup problems
+- When to start tuning
+
+**15a-fixed-setup-guide.md** (438 lines) ← **READ NOW**
+- Fixed setup philosophy (everyone has same car)
+- Brake bias (your main tool)
+- Driver vs. setup problems
+- When to start tuning
+- Testing process
+- Common mistakes (blaming car, tweaking too early)
+- Master Lonn's timeline
+
+**15b-open-setup-reference.md** (553 lines) ← **READ LATER**
+- Full setup theory (ARBs, tire pressure, springs, dampers)
+- Understanding balance (understeer/oversteer)
+- Diagnostics decision tree
+- Systematic testing
+- Practice drills
+- "Read this when racing open setup series"
+
+### Cross-References Updated
+
+**Files modified:**
+1. `guidebook/README.md` - Main navigation updated
+2. `guidebook/chapters/14-tire-management.md` - Next chapter link updated
+3. `guidebook/chapters/13-racecraft/13e-race-strategy.md` - Reference updated
+
+**Links changed:**
+- `15-vehicle-tuning.md` → `15-vehicle-tuning/README.md` (navigation)
+
+### Benefits Achieved
+
+✅ **Applicability:** Master Lonn reads ONLY what he can use NOW  
+✅ **Fixed setup guide:** Focused on brake bias + driver vs. setup  
+✅ **Open setup reference:** Full theory preserved for LATER  
+✅ **Clear guidance:** When to read which guide  
+✅ **Mental approach:** Don't blame the car (everyone has same one)  
+✅ **Preserved content:** All 724 lines retained, just separated by applicability
+
+### Pain Score Improvement
+
+**Before:**
+- Lines: 724 (5 points)
+- Sections: 13 (3 points)
+- Depth: 3 levels (0 points)
+- **NOT APPLICABLE: +10 points** (for Ray FF1600 fixed setup)
+- **Total: 18/10 (CRITICAL)**
+
+**After:**
+- **Fixed Setup Guide (15a):** 438 lines, 100% applicable NOW (2/10 pain)
+- **Open Setup Reference (15b):** 553 lines, 0% applicable NOW but 100% when needed (marked as "read later")
+- **Total: 2/10 (GREEN)** ✅
+
+### User Feedback
+
+**Master Lonn's insight:** "... which is in fact not that applicable in a fixed series"
+
+**EXACTLY!** Master caught that 70% of content = locked adjustments he can't make.
+
+**Solution:** Split by applicability (fixed NOW vs. open LATER), not just by length.
+
+---
+
+## Summary: Today's Refactor Session (2025-12-27)
+
+**Completed refactors:**
+1. ✅ Chapter 5: Weight Transfer (997 lines → 5 micro-chapters + quick ref)
+2. ✅ Chapter 13: Racecraft (707 lines → 5 micro-chapters + quick ref)
+3. ✅ Chapter 4: Track Terminology (725 lines → 4 micro-chapters + quick ref)
+4. ✅ Chapter 15: Vehicle Tuning (724 lines → split by applicability: fixed NOW vs. open LATER)
+
+**Total lines refactored:** 3,153 lines → 18 focused modules!
+
+**Strategies used:**
+- Strategy A (Split into Micro-Chapters): Ch 5, 13, 4
+- Strategy B + D hybrid (Split by Applicability + Consolidate): Ch 15
+
+---
+
 ## Next Candidates for Refactoring
 
 **Potential files over threshold:**
 - `guidebook/chapters/14-tire-management.md` (555 lines)
-- `guidebook/chapters/12-mental-game.md` (616 lines) - NEW discovery!
-- `guidebook/chapters/09-rotation-and-balance.md` (573 lines) - NEW discovery!
-- `guidebook/chapters/11-advanced-telemetry.md` (564 lines) - NEW discovery!
-- `guidebook/chapters/08-trail-braking.md` (552 lines) - NEW discovery!
+- `guidebook/chapters/12-mental-game.md` (616 lines)
+- `guidebook/chapters/09-rotation-and-balance.md` (573 lines)
+- `guidebook/chapters/11-advanced-telemetry.md` (564 lines)
+- `guidebook/chapters/08-trail-braking.md` (552 lines)
 - `weeks/week03/2025-12-25-13-32-winton-practice.md` (536 lines)
 
-**Pattern:** The guidebook has a LOT of long chapters (500-600 line range). May need systematic refactoring!
+**Pattern:** The guidebook has MANY chapters in the 500-600 line range.
 
-**No rush.** Refactor when they become painful to use.
+**No rush.** Refactor when they become painful to use, not on a schedule.
 
 ---
 
 _"Quality over quantity. Better to have 5 focused chapters than 1 massive one."_ 📚✨
+
+_"Applicability matters. Don't read what you can't use."_ 🎯✨
 

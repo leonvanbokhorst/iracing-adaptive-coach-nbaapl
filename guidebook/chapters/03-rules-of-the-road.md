@@ -174,9 +174,9 @@ To advance from Rookie → D:
 2. Complete **4 races** (or 4 Time Trials)
 3. Both conditions must be met
 
-**Master Lonn's Approach:**
+**Master Lonn's Status:**
 
-Focus on **clean laps**, not wins. Early in your journey, SR matters more than iR. Get to D license, THEN chase speed.
+You already have **B License** - you're past the beginner phase! At this level, SR and iR balance equally. You can focus on speed AND cleanliness.
 
 ---
 
@@ -294,10 +294,10 @@ That's **excellent** for your first week, Master.
 
 **Master Lonn's Division:**
 
-With 1401 iR and Rookie license:
+With 1401 iR and B License:
 
-- **Current:** Rookie Division
-- **After D license:** Division 8 (1250-1499)
+- **Current:** Division 8 (1250-1499)
+- **Status:** Racing against similarly skilled B/A license drivers
 
 **Why Divisions Matter:**
 
@@ -351,7 +351,7 @@ Race at **off-peak** (3am weekdays) for:
 
 ### The Efficient Path
 
-**Phase 1: Rookie License (Weeks 1-2)**
+**Phase 1: Rookie → D License (Weeks 1-4)**
 
 **Goal:** Get to D license safely
 
@@ -359,11 +359,11 @@ Race at **off-peak** (3am weekdays) for:
 
 - ✅ Clean laps (SR > 3.00)
 - ✅ Finish races (don't rage quit)
-- ❌ Don't chase wins yet
+- ✅ Learn fundamentals
 
 **Metric:** SR more important than iR
 
-### Phase 2: D License+ (Weeks 3-8)
+### Phase 2: D → B License (Weeks 5-12)
 
 **Goal:** Build iR and consistency
 
@@ -371,25 +371,26 @@ Race at **off-peak** (3am weekdays) for:
 
 - ✅ Consistent lap times (σ < 0.5s)
 - ✅ Learn multiple tracks well
-- ✅ Start pushing for podiums
+- ✅ Push for podiums
 
-**Metric:** iR growth + SR maintenance
+**Metric:** iR growth + SR maintenance (SR 3.00+ to advance)
 
-### Phase 3: Competitive (Weeks 9+)
+### Phase 3: B/A License - Competitive Racing ✅
 
-**Goal:** Championship contention
+**Goal:** Championship contention and continued iR growth
 
 **Focus:**
 
 - ✅ Target high-SOF races (peak times)
 - ✅ Run multiple races per week (top 25% scoring)
 - ✅ Track championship standings
+- ✅ Refine technique with data
 
-**Metric:** Weekly points ranking
+**Metric:** Weekly points ranking + iR progression to 1600+
 
 **Master Lonn's Current Phase:**
 
-You're in **Phase 2**—building iR and consistency. Perfect.
+You're in **Phase 3** with B License—competitive racing phase! You've mastered the safety fundamentals. Now it's all about speed, consistency, and championship points. Well done, Master! 🎖️
 
 ---
 
@@ -424,13 +425,13 @@ If you're 2000 iR in 1200 SOF and finish P8:
 
 ### "Should I focus on iRating or Safety Rating?"
 
-**Answer:** **SR first, iR second** (until D license).
+**Answer:** **SR first, iR second** (for Rookies/D license).
 
-After D license: Both matter equally.
+**At B License and above:** Both matter equally. You've proven you can race clean—now push for speed!
 
 **Master Lonn's Balance:**
 
-You're doing it right—racing clean (low incidents) while still pushing for podiums.
+With B License, you've mastered clean racing. Now you're in the "refine technique for speed" phase. Perfect balance—racing clean while chasing podiums and iR growth.
 
 ---
 

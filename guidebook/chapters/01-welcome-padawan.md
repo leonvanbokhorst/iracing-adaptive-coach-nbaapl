@@ -360,7 +360,7 @@ Let's get to work, Master.
 ---
 
 **Next Chapter:** [Chapter 2: A Brief History of the Digital Racetrack](02-history-of-iracing.md)  
-**Skip to Core Skills:** [Chapter 5: The Unseen Force - Weight Transfer](05-weight-transfer.md)
+**Skip to Core Skills:** [Chapter 5: Weight Transfer - The Unseen Force](05-weight-transfer/README.md)
 
 ---
 

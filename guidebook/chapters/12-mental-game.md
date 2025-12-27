@@ -321,7 +321,79 @@ Not every session needs to be serious. Sometimes you just drive. And that's okay
 
 ---
 
-## Part 4: Mental Resilience
+## Part 4: Mental Resilience and The Enemy of Flow
+
+### The Enemy: Fear and Tension
+
+**Flow state has an enemy: Fear.**
+
+When you're afraid, your body responds:
+- Muscles tense
+- Grip tightens
+- Breathing gets shallow
+- Inputs become jerky
+- Decision-making slows
+
+**This is the opposite of flow.**
+
+Flow = smooth, relaxed, automatic  
+Fear = tight, forced, overthinking
+
+### The Fear Loop (Master Lonn's Discovery)
+
+**📊 Real-World Example: Rudskogen Post-Season Race (Dec 27, 2025)**
+
+Master Lonn qualified P5 in a 1531 SoF race. Clean racecraft took him to **P2** by lap 2.
+
+P1 was 5+ seconds ahead (unreachable).  
+Master Lonn was defending P2.
+
+**Then the fear kicked in.**
+
+**The Loop:**
+
+**Lap 3, S3 left-hander:**
+- Brain: "Don't lose P2. Don't mess up."
+- Body: Tense, tight grip, overdriving
+- Result: **Spin.** P7.
+
+**Lap 4, same corner:**
+- Brain: "Don't spin here again. NOT HERE."
+- Body: **Even more tense**, fixated on NOT spinning
+- Result: **Spun again.** Dead last.
+
+**This is the "Pink Elephant Problem":**
+- "Don't think about a pink elephant."
+- What are you thinking about now? 🐘💗
+
+**Your brain can't process negatives under pressure.**
+- "Don't spin" → Brain hears: **"SPIN"**
+- "Don't lift" → Brain hears: **"LIFT"**
+- "Don't lose position" → Brain hears: **"LOSE"**
+
+**The Discovery:**
+
+After the race, Master Lonn wrote:
+
+> "It's not my pace, it's not my prep or my coach or my car or the others... most of the times it's me. And that can be fixed."
+
+This is **elite self-awareness**. Most drivers never reach this.
+
+**The Pattern Identified:**
+
+Not "competitive urge to pass someone"—but **"fear of being overtaken."**
+
+When in P2:
+- ❌ Flow Mode: "This is awesome! Let's see how fast I can go."
+- ✅ Fear Mode: "Don't lose this position. Must defend. Can't mess up."
+
+**Fear makes you tight. Tight makes you slow. Slow makes you scared. Loop complete.**
+
+**The Fix:** Practice "meebewegen" (Dutch: "moving with" / going with flow) under pressure, so it becomes automatic.
+
+→ See: Week 02, Post-Season Race Retrospective for full story and practice drills
+
+---
 
 ### The 10-Second Rule (For Mistakes)
 
@@ -482,7 +554,47 @@ You're not a "bad driver." You had a bad lap. Big difference.
 
 ## Padawan Practice Drills
 
-### Drill 1: The Flow State Challenge
+### Drill 1: The "Let Them By" Drill (Fear Desensitization)
+
+**Goal:** Overcome fear of being overtaken.
+
+**Problem:** When someone is behind you in a race, fear creates tension → tension creates mistakes.
+
+**Solution:** Practice being overtaken until it doesn't trigger fear anymore.
+
+**Setup:**
+- Any practice session
+- Preferably with AI or other drivers
+
+**Process:**
+1. Drive 5 laps at race pace
+2. When someone catches you, **deliberately let them pass**
+3. Follow them for 2-3 laps
+4. Study their line, braking points, technique
+5. **Don't try to re-pass** (this is the hard part!)
+
+**Repeat:** Do this 3-5 times per session
+
+**Measure:**
+- How did it feel to let them by?
+- Did your heart rate spike?
+- Were you able to learn from following them?
+- Did it get easier each time?
+
+**Success criteria:**
+Being overtaken starts to feel like "data collection" instead of "losing."
+
+**Why it works:**
+Repeated exposure to the fear trigger (being overtaken) without negative consequences desensitizes your brain. Fear response weakens over time.
+
+**Master Lonn's application (Week 02 Discovery):**
+Created after identifying "fear of being overtaken" as primary pressure trigger during Rudskogen post-season race. When defending P2, fear caused two spins in same corner (laps 3-4).
+
+→ See: Week 02, Post-Season Race Retrospective
+
+---
+
+### Drill 2: The Flow State Challenge
 
 **Goal:** Create flow state conditions.
 
@@ -506,7 +618,9 @@ You're not a "bad driver." You had a bad lap. Big difference.
 
 If YES to these = you touched flow state.
 
-### Drill 2: The Mistake Recovery Drill
+---
+
+### Drill 3: The Mistake Recovery Drill
 
 **Goal:** Practice the 10-Second Rule.
 
@@ -529,7 +643,9 @@ When you make a mistake:
 
 **Success:** Recovery time under 10 seconds.
 
-### Drill 3: The Pre-Session Ritual
+---
+
+### Drill 4: The Pre-Session Ritual
 
 **Goal:** Build a routine that signals "focus time."
 
@@ -597,7 +713,7 @@ That's the mental game.
 
 ---
 
-**Next Chapter:** [Chapter 13: Introduction to Racecraft](13-racecraft.md)  
+**Next Chapter:** [Chapter 13: Racecraft](13-racecraft/README.md)  
 **Previous Chapter:** [Chapter 11: Beyond G-Forces - Advanced Telemetry](11-advanced-telemetry.md)
 
 ---

@@ -146,7 +146,7 @@ Master weight transfer, and you master the Ray FF1600.
 ---
 
 **Next Chapter:** [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md)  
-**Previous Chapter:** [Chapter 4: Track Terminology](../04-track-terminology.md)
+**Previous Chapter:** [Chapter 4: The Language of the Track](../04-track-terminology/README.md)
 
 ---
 

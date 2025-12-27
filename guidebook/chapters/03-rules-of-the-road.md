@@ -500,7 +500,7 @@ With B License, you've mastered clean racing. Now you're in the "refine techniqu
 
 ---
 
-**Next Chapter:** [Chapter 4: The Language of the Track](04-track-terminology.md)  
+**Next Chapter:** [Chapter 4: The Language of the Track](04-track-terminology/README.md)  
 **Previous Chapter:** [Chapter 2: A Brief History of iRacing](02-history-of-iracing.md)
 
 ---

@@ -15,7 +15,7 @@ May the G-Force be with you.
 - **Chapter 1: Welcome, Padawan** - [Chapter](chapters/01-welcome-padawan.md) ✨ NEW
 - **Chapter 2: A Brief History of the Digital Racetrack** - [Chapter](chapters/02-history-of-iracing.md)
 - **Chapter 3: The Rules of the Road** - [Chapter](chapters/03-rules-of-the-road.md)
-- **Chapter 4: The Language of the Track** - [Chapter](chapters/04-track-terminology.md)
+- **Chapter 4: The Language of the Track** - [Chapter](chapters/04-track-terminology/README.md)
 
 ### Part 2: The Core Skills
 

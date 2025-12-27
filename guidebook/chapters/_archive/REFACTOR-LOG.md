@@ -309,12 +309,150 @@ Total: 1260 lines (across 7 focused files)
 
 ---
 
+---
+
+## 2025-12-27: Chapter 4 Track Terminology Refactor
+
+**Reason:** File hit 725 lines (pain score: 8/10 RED) - vocabulary encyclopedia became overwhelming
+
+**Strategy Used:** Split into Micro-Chapters (Strategy A)
+
+### Original Structure
+```
+04-track-terminology.md (725 lines, 13 sections, 4 distinct learning modules)
+```
+
+### New Structure
+```
+04-track-terminology/
+├── README.md                    (156 lines - navigation hub)
+├── quick-reference.md           (156 lines - vocabulary cheat sheet)
+├── 04a-corner-types.md          (333 lines - 5 corner types)
+├── 04b-corner-combinations.md   (301 lines - 4 combos)
+├── 04c-track-features.md        (476 lines - 7 features)
+└── 04d-racing-concepts.md       (384 lines - data terms + drills)
+
+Total: 1806 lines (across 6 focused files)
+```
+
+### Line Count Comparison
+
+**Original:**
+- Single file: 725 lines
+- Average section: 56 lines
+- Longest section: 198 lines (Corner Types)
+
+**Refactored:**
+- Average file: 301 lines
+- Longest file: 476 lines (04c-track-features.md)
+- Shortest file: 156 lines (README.md, quick-reference.md)
+- Quick reference: 156 lines (complete vocabulary)
+
+**All files under 500 lines!** ✅
+
+### Content Distribution
+
+**04a-corner-types.md** (333 lines)
+- Hairpin 🔄 (tight, 180°, slow)
+- Carousel 🎠 (long, constant radius)
+- Sweeper 🌊 (fast, flowing)
+- 90-Degree 📐 (standard corner)
+- Kink ⚡ (barely a corner)
+- Each with definition, visual, technique, examples, FF1600 tips
+
+**04b-corner-combinations.md** (301 lines)
+- Chicane 🪃 (quick left-right)
+- Esses 〰️ (linked S-curves)
+- Switchback ⤴️ (tight opposite directions)
+- Double Apex 🎯🎯 (one corner, two points)
+- Flow and rhythm principles
+
+**04c-track-features.md** (476 lines)
+- Apex types (early, late, diamond)
+- Racing Line (optimal path)
+- Track Limits (white lines)
+- Curbs (flat vs. sausage)
+- Camber (banking/slope)
+- Elevation (uphill, downhill, crest, compression)
+- Braking Zones (markers, points, turn-in)
+
+**04d-racing-concepts.md** (384 lines)
+- Line Types (optimal, defensive, overtaking)
+- Sectors (timed sections)
+- Optimal vs. PB (gap = potential)
+- Consistency (σ - sigma)
+- Strength of Field (SOF)
+- Practice Drills (3 exercises)
+
+**quick-reference.md** (156 lines)
+- Complete vocabulary at a glance
+- 5 corner types (one-liner each)
+- 4 combinations (quick definitions)
+- Track features (bullets)
+- Racing concepts (formulas)
+- Quick identifier guide
+
+**README.md** (156 lines)
+- Why terminology matters
+- Navigation hub
+- Learning path
+- Chapter summaries
+- Cross-references
+
+### Cross-References Updated
+
+**Files modified:**
+1. `guidebook/README.md` - Main navigation updated
+2. `guidebook/chapters/03-rules-of-the-road.md` - Next chapter link updated
+3. `guidebook/chapters/05-weight-transfer/README.md` - Previous chapter link updated
+
+**Links changed:**
+- `04-track-terminology.md` → `04-track-terminology/README.md` (navigation)
+
+### Benefits Achieved
+
+✅ **ADHD-friendly:** Each file = one focused topic (< 500 lines)  
+✅ **Quick reference:** 156-line complete vocabulary cheat sheet  
+✅ **Modular learning:** Learn corner types separate from features  
+✅ **Easy lookup:** Need camber definition? → 04c, fast access  
+✅ **Preserved content:** All 725 lines retained, just reorganized  
+✅ **Reversible:** Original archived at `_archive/04-track-terminology-original.md`
+
+### Pain Score Improvement
+
+**Before:**
+- Lines: 725 (5 points)
+- Sections: 13 (3 points)
+- Depth: 3 levels (0 points)
+- **Total: 8/10 (RED)**
+
+**After (per file):**
+- Lines: 156-476 (0-2 points each)
+- Sections: 5-10 per file (0 points for most)
+- Depth: 3 levels max (0 points)
+- **Total: 0-2/10 (GREEN)** ✅
+
+### User Feedback
+
+**Master Lonn's trigger:** "Great. now /refactor-long-file @guidebook/chapters/04-track-terminology.md"
+
+**Solution:** Split into 4 learning modules + quick reference + navigation hub.
+
+**Philosophy:** Vocabulary should be easy to look up. One giant file = encyclopedia. Modular files = dictionary.
+
+---
+
 ## Next Candidates for Refactoring
 
 **Potential files over threshold:**
 - `guidebook/chapters/14-tire-management.md` (555 lines)
-- `guidebook/chapters/04-track-terminology.md` (725 lines) - NEW discovery!
+- `guidebook/chapters/12-mental-game.md` (616 lines) - NEW discovery!
+- `guidebook/chapters/09-rotation-and-balance.md` (573 lines) - NEW discovery!
+- `guidebook/chapters/11-advanced-telemetry.md` (564 lines) - NEW discovery!
+- `guidebook/chapters/08-trail-braking.md` (552 lines) - NEW discovery!
 - `weeks/week03/2025-12-25-13-32-winton-practice.md` (536 lines)
+
+**Pattern:** The guidebook has a LOT of long chapters (500-600 line range). May need systematic refactoring!
 
 **No rush.** Refactor when they become painful to use.
 

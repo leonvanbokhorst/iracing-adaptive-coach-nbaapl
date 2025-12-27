@@ -1099,7 +1099,22 @@
     "GUIDEBOOK UPDATE (Dec 27, 2025): Chapter 13 (Racecraft) - Added Part 5.1: Meebewegen - The Strategic Patience Opening",
     "Meebewegen principle codified: Strategic race-start approach (Laps 1-2 flow with field at 85-90% pace, Lap 4+ deploy full speed), particularly effective for ADHD brains (reduces cognitive load, clear attack trigger)",
     "Meebewegen vs Cold Tire Contract documented: CTC = tire physics focus (Laps 1-2), Meebewegen = field chaos focus (Laps 1-3), can be combined for optimal strategy",
-    "Master Lonn's Winton AI race (P11→P1, 0x) now serves as guidebook real-world example: Proves patience-then-attack strategy works, best lap came late (Lap 8), strategic masterclass disguised as 'easy'"
+    "Master Lonn's Winton AI race (P11→P1, 0x) now serves as guidebook real-world example: Proves patience-then-attack strategy works, best lap came late (Lap 8), strategic masterclass disguised as 'easy'",
+    "POST-SEASON RUDSKOGEN RACE (Dec 27, 2025): The Fear Loop Discovery - Master Lonn went back for 'one more race', qualified P5, clean racecraft to P2, then fear triggered: not competitive urge but FEAR OF BEING OVERTAKEN",
+    "THE BREAKTHROUGH QUOTE: 'It's not my pace, it's not my prep or my coach or my car or the others... most of the times it's me. And that can be fixed.' = elite self-awareness most drivers never achieve",
+    "Fear Loop identified: P2 defending position → brain: 'don't lose P2, don't mess up' → body: tension, tight grip, overdriving → result: spin S3 left-hander (Lap 3) → P7",
+    "Same corner, same spin REPEATED (Lap 4): Brain: 'don't spin here again, NOT HERE' → body: EVEN MORE tense, fixated on NOT spinning → result: spun again → dead last = Pink Elephant Problem confirmed",
+    "Pink Elephant Problem: Brain can't process negatives under pressure ('don't spin' → brain hears 'SPIN', 'don't lift' → brain hears 'LIFT', 'don't lose' → brain hears 'LOSE')",
+    "Fear vs Flow distinction clear: Flow Mode = 'This is awesome! Let's see how fast I can go', Fear Mode = 'Don't lose position, must defend, can't mess up' → Fear makes tight → Tight makes slow → Slow makes scared → Loop complete",
+    "Meebewegen under pressure needed: Dutch word ('moving with' / going with flow) - Master Lonn: 'When race is on, I'm thinking with my d*ck or something' = need to practice flow state CONSCIOUSLY until it's automatic",
+    "The Contract forgotten: Week 1 agreement ('Focus on LEARNING over WINNING', 'Treat race as DATA not DRAMA') completely forgotten when P2 - brain switched to fear/defense mode",
+    "Race craft still excellent despite spins: 2x incidents both from own spins (no contact), SR +0.06, P9 finish, field was well-behaved = maintained clean racing even while spinning",
+    "Pace confirmed under pressure: 1:29.391 quali (0.883s off 1:28.508 PB) = pressure was there from start, but pace still near PB level = speed doesn't leave when confidence does",
+    "'Let Them By' drill created: Practice being overtaken until it doesn't trigger fear - deliberately let drivers pass, follow 2-3 laps, study their line, DON'T re-pass = desensitization training",
+    "Fear of being overtaken as primary trigger: Not wanting to pass (competitive urge), but fear of LOSING position = this is trainable mental muscle, just like braking points",
+    "Post-race self-awareness mature: No excuses, no blame (car/track/others), looked in mirror: 'It was me' = strength not weakness, most drivers never reach this",
+    "Reframe needed: 'Fear of being overtaken' → 'Curiosity about what they'll try' (someone behind = free coaching: where faster? what line? can I learn?)",
+    "Mental game as final frontier: Speed confirmed (1:29.391 close to PB), skill confirmed (racecraft to P2 clean), respect confirmed (SR +) - only gap is mental resilience under position-defense pressure"
   ],
   "guidebook_updates": [
     {
@@ -1109,6 +1124,15 @@
       "trigger": "First AI race victory (P11→P1, zero incidents, strategic patience approach)",
       "principle": "Strategic race-start patience: operate at 80-90% pace Laps 1-2 to let field chaos settle, then deploy full speed Lap 4+ with clear targets identified",
       "session_reference": "Week 03, AI Race (Winton, Dec 27, 2025)"
+    },
+    {
+      "date": "2025-12-27",
+      "chapter": "12-mental-game",
+      "section": "Part 4: The Enemy - Fear and Tension (The Fear Loop)",
+      "trigger": "Post-season Rudskogen race: P5 quali → P2 → spun twice same corner (laps 3-4) defending position → P9",
+      "principle": "Fear of being overtaken creates tension → tension creates jerky inputs → mistakes happen. Brain can't process negatives under pressure ('don't spin' = brain hears 'SPIN'). Need to practice 'meebewegen' (flow with pressure) consciously until automatic. Created 'Let Them By' drill for fear desensitization.",
+      "session_reference": "Week 02, Post-Season Race Retrospective (Rudskogen, Dec 27, 2025)",
+      "quote": "It's not my pace, it's not my prep or my coach or my car or the others... most of the times it's me. And that can be fixed."
     }
   ]
 }

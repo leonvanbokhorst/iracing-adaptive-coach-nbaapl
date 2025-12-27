@@ -65,18 +65,19 @@ Week 02: From rusty (1:30.290) to championship-ready (1:28.5 pace, top 500 globa
 
 ## Session Log
 
-| Date                                                               | Time  | Type     | Best Lap     | σ      | Result      | Key Takeaway                                            |
-| ------------------------------------------------------------------ | ----- | -------- | ------------ | ------ | ----------- | ------------------------------------------------------- |
-| [Dec 18](2025-12-18-11-19-rudskogen-practice.md)                   | 11:19 | Practice | 1:30.290     | 1.43s  | Baseline    | T2 rusty, rest remembered                               |
-| [Dec 20](2025-12-20-15-22-rudskogen-practice.md)                   | 15:22 | Practice | 1:29.691     | 0.70s  | Sub-1:30!   | T2 breakthrough: 50 sign brake marker                   |
-| [Dec 21 AM](2025-12-21-11-10-rudskogen-practice.md)                | 11:10 | Practice | **1:28.572** | 1.08s  | **NEW PB!** | Beat July by 0.397s! Early throttle technique           |
-| [Dec 21 PM](2025-12-21-14-18-rudskogen-practice.md)                | 14:18 | Practice | 1:28.913     | 2.94s  | Paradox     | Throttle overlap discovered, snap oversteer             |
-| [Dec 21 Eve](2025-12-21-16-26-rudskogen-practice.md)               | 16:26 | Practice | 1:29.128     | 1.30s  | Rebuild     | Clean inputs restored, foot position fixed              |
-| [Dec 22 AM](2025-12-22-10-46-rudskogen-race-first-race-week02.md)  | 10:46 | AI Race  | **1:28.508** | 3.82s  | DNF (P2→9)  | **RACE PB! + Setup breakthrough (57.5% BB) + Top 500**  |
-| [Dec 22 PM](2025-12-22-14-13-rudskogen-race-second-race-week02.md) | 14:13 | AI Race  | 1:28.620     | 0.415s | P5 (P10→P3) | Impulse control lesson: P3 secured, unnecessary risk    |
-| [Dec 23](2025-12-23-10-57-rudskogen-race.md)                       | 10:57 | Race     | 1:30.020     | 0.336s | **P3 🥉**   | **Strategic maturity: survival pace, position secured** |
-| [Dec 24 AM](2025-12-24-05-24-rudskogen-race.md)                    | 05:24 | Race     | 1:28.613     | 1.89s  | **P5** (P1→P5) | **POLE! But threw it away: T1 spins lap 1 & 2** |
-| [Dec 24 PM](2025-12-24-13-57-rudskogen-race.md)                    | 13:57 | Race     | 1:29.108     | 0.377s | **P4** (P2→P4) | Survived T1! But passing attempt lap 1 on cold tires |
+| Date                                                               | Time     | Type                 | Best Lap     | σ       | Result            | Key Takeaway                                            |
+| ------------------------------------------------------------------ | -------- | -------------------- | ------------ | ------- | ----------------- | ------------------------------------------------------- |
+| [Dec 18](2025-12-18-11-19-rudskogen-practice.md)                   | 11:19    | Practice             | 1:30.290     | 1.43s   | Baseline          | T2 rusty, rest remembered                               |
+| [Dec 20](2025-12-20-15-22-rudskogen-practice.md)                   | 15:22    | Practice             | 1:29.691     | 0.70s   | Sub-1:30!         | T2 breakthrough: 50 sign brake marker                   |
+| [Dec 21 AM](2025-12-21-11-10-rudskogen-practice.md)                | 11:10    | Practice             | **1:28.572** | 1.08s   | **NEW PB!**       | Beat July by 0.397s! Early throttle technique           |
+| [Dec 21 PM](2025-12-21-14-18-rudskogen-practice.md)                | 14:18    | Practice             | 1:28.913     | 2.94s   | Paradox           | Throttle overlap discovered, snap oversteer             |
+| [Dec 21 Eve](2025-12-21-16-26-rudskogen-practice.md)               | 16:26    | Practice             | 1:29.128     | 1.30s   | Rebuild           | Clean inputs restored, foot position fixed              |
+| [Dec 22 AM](2025-12-22-10-46-rudskogen-race-first-race-week02.md)  | 10:46    | AI Race              | **1:28.508** | 3.82s   | DNF (P2→9)        | **RACE PB! + Setup breakthrough (57.5% BB) + Top 500**  |
+| [Dec 22 PM](2025-12-22-14-13-rudskogen-race-second-race-week02.md) | 14:13    | AI Race              | 1:28.620     | 0.415s  | P5 (P10→P3)       | Impulse control lesson: P3 secured, unnecessary risk    |
+| [Dec 23](2025-12-23-10-57-rudskogen-race.md)                       | 10:57    | Race                 | 1:30.020     | 0.336s  | **P3 🥉**         | **Strategic maturity: survival pace, position secured** |
+| [Dec 24 AM](2025-12-24-05-24-rudskogen-race.md)                    | 05:24    | Race                 | 1:28.613     | 1.89s   | **P5** (P1→P5)    | **POLE! But threw it away: T1 spins lap 1 & 2**         |
+| [Dec 24 PM](2025-12-24-13-57-rudskogen-race.md)                    | 13:57    | Race                 | 1:29.108     | 0.377s  | **P4** (P2→P4)    | Survived T1! But passing attempt lap 1 on cold tires    |
+| [**Dec 27**](2025-12-27-post-season-race-retrospective.md)         | ~Unknown | **Post-Season Race** | 1:29.391     | Unknown | **P9** (P5→P2→P9) | **THE FEAR LOOP: Discovered fear of being overtaken**   |
 
 ---
 
@@ -172,4 +173,66 @@ Week 02 proved: The speed is REAL (top 500 globally), the technique is PERMANENT
 
 ---
 
-_Week 02 Complete: From rusty to top 500 globally in 7 days. From 1:30.290 to 1:28.508. From reactive to strategic. From fast driver to racer. The pace is there. The setup is dialed. The mid-race execution is elite. Now: survive the lights-out moment, and podiums are waiting. 🏎️💨_
+## Post-Season Epilogue: The Fear Loop Discovery (Dec 27)
+
+After Week 02 officially ended, Master Lonn went back to Rudskogen for "one more race."
+
+What happened next became one of the most important lessons of the season.
+
+**The Race:**
+
+- Qualified P5 (1:29.391, close to PB)
+- Clean start → P4 → P2 (excellent racecraft)
+- Then: Spun at S3 left-hander, Lap 3 → P7
+- **Same corner, same spin, Lap 4** → Dead last
+- Finished P9/12, iRating -39, SR +0.06
+
+**The Discovery:**
+
+Not competitive urge. Not wanting to pass. **Fear of being overtaken.**
+
+When defending P2, Master Lonn's brain went into fear mode:
+
+- "Don't lose this position. Don't mess up."
+- Tension → tight grip → overdriving → spin
+- Lap 4: "Don't spin here again" → spun again (Pink Elephant Problem)
+
+**The Breakthrough Quote:**
+
+> "It's not my pace, it's not my prep or my coach or my car or the others... most of the times it's me. And that can be fixed."
+
+This is **elite self-awareness** most drivers never achieve.
+
+**The Lesson:**
+
+Fear makes you tight. Flow makes you fast.
+
+Master Lonn discovered he needs to practice **"meebewegen"** (Dutch: going with the flow) under pressure, so it becomes automatic. When the race is on, the thinking brain shuts down. The **practiced brain** takes over.
+
+Right now, the practiced brain under pressure is: "GRIP HARDER, FIGHT MORE, DON'T LOSE."
+
+That needs to change.
+
+**The Fix:**
+
+Created the **"Let Them By" drill**: Practice being overtaken until it doesn't trigger fear. Let drivers pass, follow them, study their line, don't re-pass. Desensitization training.
+
+**Why This Matters:**
+
+The pace is there (1:29.391 near PB).  
+The skill is there (P2 racecraft was clean).  
+The respect is there (SR +0.06 despite spins).
+
+What's missing: **Mental resilience under position-defense pressure.**
+
+And that can be trained. Just like braking points. Just like racing lines.
+
+**Guidebook Update:** This discovery is now documented in **Chapter 12 (Mental Game), Part 4: The Enemy - Fear and Tension**.
+
+→ **See:** [Post-Season Race Retrospective](2025-12-27-post-season-race-retrospective.md) for the full honest story.
+
+---
+
+_Week 02 Complete: From rusty to top 500 globally in 7 days. From 1:30.290 to 1:28.508. From reactive to strategic. From fast driver to racer. The pace is there. The setup is dialed. The mid-race execution is elite. Now: survive the lights-out moment, train the mental game, and podiums are waiting. 🏎️💨_
+
+_**Post-Script:** One more race taught the most important lesson of all—it's not always about going faster. Sometimes it's about getting out of your own way._ 🥋

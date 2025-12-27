@@ -707,7 +707,7 @@ Higher SOF = more championship points awarded.
 
 ---
 
-**Next Chapter:** [Chapter 5: The Unseen Force - Weight Transfer](05-weight-transfer.md)  
+**Next Chapter:** [Chapter 5: Weight Transfer - The Unseen Force](05-weight-transfer/README.md)  
 **Previous Chapter:** [Chapter 3: The Rules of the Road](03-rules-of-the-road.md)
 
 ---

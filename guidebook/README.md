@@ -19,7 +19,7 @@ May the G-Force be with you.
 
 ### Part 2: The Core Skills
 
-- **Chapter 5: The Unseen Force: A Guide to Weight Transfer** - [Chapter](chapters/05-weight-transfer.md)
+- **Chapter 5: Weight Transfer - The Unseen Force** - [Chapter](chapters/05-weight-transfer/README.md)
 - **Chapter 6: The Gearbox as a Tool** - [Chapter](chapters/06-gears-and-shifting.md)
 - **Chapter 7: The Art of the Apex: An Introduction to Racing Lines** - [Chapter](chapters/07-racing-lines.md) ✨ NEW
 - **Chapter 8: The Trail Braking Technique** - [Chapter](chapters/08-trail-braking.md)

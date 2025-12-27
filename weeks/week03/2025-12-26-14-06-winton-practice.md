@@ -1,21 +1,20 @@
 # 2025-12-26 - Winton Motor Raceway - Ray FF1600 - Practice Session (P3)
 
-**Track**: [Winton Motor Raceway - National Circuit](../../tracks/track-winton-motor-raceway-national.md)
-**Car**: Ray FF1600
-**Session kind**: Offline Practice (P3)
-**Fastest lap time**: **1:26.090** ⭐ NEW PB! (-0.327s from P2!)
-**Consistency (σ)**: 2.03s (clean laps: 0.49s)
-**Clean laps**: 13 / 17
-**Incidents**: 4 (down from 10 in P2!)
-**Garage 61 event page**: [Session Details](https://garage61.net/app/event/01KDDD8QRP55P0DBF24QVFBTYE)
+- **Track**: [Winton Motor Raceway - National Circuit](../../tracks/track-winton-motor-raceway-national.md)
+- **Car**: Ray FF1600
+- **Session kind**: Offline Practice (P3)
+- **Fastest lap time**: **1:26.090** ⭐ NEW PB! (-0.327s from P2!)
+- **Consistency (σ)**: 2.03s (clean laps: 0.49s)
+- **Clean laps**: 13 / 17
+- **Incidents**: 4 (down from 10 in P2!)
+- **Garage 61 event page**: [Session Details](https://garage61.net/app/event/01KDDD8QRP55P0DBF24QVFBTYE)
 
 ---
 
 ## Current Focus and Goal
 
-**Focus**: T5-T6 sequence understanding - wide arc (2/3 track width) + engine braking for rotation + flat through T6
-
-**Goal**: Translate technique understanding into consistent execution, prepare for race week AI practice
+- **Focus**: T5-T6 sequence understanding - wide arc (2/3 track width) + engine braking for rotation + flat through T6
+- **Goal**: Translate technique understanding into consistent execution, prepare for race week AI practice
 
 ---
 

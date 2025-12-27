@@ -597,7 +597,7 @@ That's the mental game.
 
 ---
 
-**Next Chapter:** [Chapter 13: Introduction to Racecraft](13-racecraft.md)  
+**Next Chapter:** [Chapter 13: Racecraft](13-racecraft/README.md)  
 **Previous Chapter:** [Chapter 11: Beyond G-Forces - Advanced Telemetry](11-advanced-telemetry.md)
 
 ---

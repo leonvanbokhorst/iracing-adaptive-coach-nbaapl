@@ -52,7 +52,7 @@ From baseline to POLE in four days. The dancing circuit had accepted him.
 - **Crashes**: 3 (P01: 1, P02: 2, P03: 0, AI Race: 0, Officials: 0)
 - **Official Results**: P8, P10, P7 (iRating: -35, SR: -0.19)
 - **Breakthrough**: Roller Coaster commitment + T2 false apex discovery
-- **Standings**: Week 08 data pending
+- **Standings**: P150 / 40,437 (Top 0.37%) | 590 pts (99.6%) | [Full Report](standings-report.md)
 
 ---
 

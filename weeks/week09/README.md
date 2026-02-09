@@ -2,57 +2,47 @@
 
 **Track**: [Circuit de Lédenon](../../tracks/track-circuit-de-ledenon.md) - Full Circuit (3.151 km)  
 **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
-**Dates**: Feb 10 → Feb 16  
-**Status**: Pending
+**Dates**: Feb 5 → Feb 12  
+**Status**: In Progress (2 Practice, Officials starting Feb 10)
 
 ---
 
-## Pre-Week Context
+## The Story
 
-Coming off a challenging Week 08 at VIR North where iRating dipped (-35) despite solid technique development. The Roller Coaster commitment lessons and "false apex" mental model shift should translate well to Lédenon's blind crests and commitment corners.
+The French rollercoaster opened its arms and asked for a dance.
 
-**Entering iRating**: 1684  
-**Entering SR**: 3.21
+Master Lonn arrived at Lédenon carrying the weight of Week 08 — three official races at VIR North, iRating down 35 points, but technique sharper than ever. The Roller Coaster σ = 0.082s. Snake brake point σ = 0.2 meters. Machine-like precision that didn't show up in the standings.
 
----
+Lédenon was supposed to be the reset. A new track, 8 corners, blind crests everywhere — the kind of place that punishes hesitation and rewards trust. Anti-clockwise, which meant long sequences of medium-speed lefts testing his weaker side. The track dossier warned: *"The first few sessions can feel claustrophobic and chaotic."*
 
-## Track Character
+Practice 01: eleven laps, zero incidents, 5 out of 8 corners dialed on Day 1. **1:30.350**. The Gong comparison dropped a reality check — 4.752 seconds slower, not from overdriving but from **underdriving**. The car had 0.26 G of grip he wasn't using.
 
-"Rollercoaster in a Bowl" — anti-clockwise, 13 corners, blind crests, off-camber entries, and almost no moment when the car isn't loaded up.
+Then Practice 02 happened. And the staircase appeared.
 
-**Key challenges from dossier:**
-- **Anti-clockwise anomaly** — Long sequences of medium-speed lefts test your weaker side
-- **Elevation as a weapon** — Crests hide apexes; compressions spike grip
-- **Rhythm track** — String corners into 3-4 big shapes, not isolated events
-- **Commitment in the blind** — References before the crest, trust them
+Five consecutive laps, each faster than the last: 1:29.1... 1:28.4... 1:27.8... 1:27.7... **1:27.600**. A 2.75-second PB improvement in a single session. The theoretical optimal dropped to 1:27.516 — only 0.084s away. La cuvette, the blind compression corner that had been the primary worry, went from σ 0.497s to **σ 0.157s**. Solved.
 
-**VIR lessons to apply:**
-- Roller Coaster commitment methodology → Lédenon's blind crests
-- "False apex" mental model → Think in sequences, not individual corners
-- Brake point consistency as commitment proxy
+> *"Felt way better than yesterday. Got some corners 'figured out', but still a long way to go to flow."*
 
----
-
-## Initial Focus Areas
-
-1. **Map the rollercoaster** (Day 1) — Name terrain features out loud, build mental model
-2. **Sequence thinking** (Day 2) — Drive sections as one giant corner, quiet hands
-3. **Trust over crests** — Apply VIR Roller Coaster commitment lessons
+The data disagreed with "a long way." Those last five laps? That _was_ flow.
 
 ---
 
 ## The Numbers
 
-| Metric | Start | Current | Change | Notes |
-|--------|-------|---------|--------|-------|
-| **Best Lap** | — | — | — | TBD |
-| **Consistency (σ)** | — | — | — | TBD |
-| **Corners Dialed** | 0/13 | — | — | TBD |
+| Metric | P01 (Feb 5) | P02 (Feb 7) | Change | Notes |
+|--------|-------------|-------------|--------|-------|
+| **Best Lap** | 1:30.350 | **1:27.600** | **-2.750s** | PB on final lap |
+| **Consistency (σ)** | 1.058s | 0.580s (hot) | -0.478s | Converging fast |
+| **Corners Dialed** | 5/8 | **6/8** | +1 | 75% in 2 sessions |
+| **Gap to Optimal** | 0.833s | **0.084s** | -0.749s | Near-optimal |
+| **La cuvette σ** | 0.497s | **0.157s** | -68% | SOLVED |
 
 **Week Stats:**
-- **Sessions**: 0
-- **Flying Laps**: 0
-- **Official Results**: Pending
+- **Sessions**: 2 practice
+- **Flying Laps**: 19
+- **Official Results**: Starting tomorrow (Feb 10)
+- **Incidents**: 1 (off at T3 La Carrierasse, P02)
+- **Primary Focus**: T7 La servie brake point (σ 36.9m — still searching)
 
 ---
 
@@ -60,33 +50,57 @@ Coming off a challenging Week 08 at VIR North where iRating dipped (-35) despite
 
 | Date | Time | Type | Best Lap | σ | Result | Key Takeaway |
 |:-----|:-----|:-----|:---------|:--|:-------|:-------------|
-| — | — | — | — | — | — | — |
+| Feb 5 | 16:36 | Baseline | 1:30.350 | 1.058s | [Report](2026-02-05-16-36-ledenon-baseline-practice.md) | 5/8 dialed, La cuvette = "weird one", underdriving diagnosis |
+| Feb 7 | 14:01 | Focused | **1:27.600** | 0.580s | [Report](2026-02-07-14-01-ledenon-practice-02.md) | 2.75s PB drop, La cuvette SOLVED, 5 descending laps |
 
 ---
 
 ## Breakthroughs
 
-_Pending first session..._
+- **La cuvette SOLVED**: σ 0.497s → 0.157s (-68%). Blind compression corner that demanded VIR Roller Coaster-style commitment. Trust-over-crests methodology validated on a second track.
+
+- **Feel-Data Sync**: "Flowy" = S2 σ 0.409s. "Weird last corner" = La cuvette σ 0.497s. Instincts calibrated from lap 1.
+
+- **La Courmelle Dialed**: σ = 0.056s, ZERO oversteer events. Only 0.02s off Gong's pace. When he commits, he matches the alien.
+
+- **The Staircase**: Five consecutive laps each faster than the last — textbook flow state emergence. PB on the very last lap of the session.
 
 ---
 
 ## Challenges
 
-_Pending first session..._
+- **T7 La servie** (brake σ 36.9m): Biggest single opportunity (0.69s loss vs Gong). Brake point still wandering. Need a specific marker. Target ~65% brake pressure.
+
+- **T1 Triple Gauche** (0.463s σ): Multi-apex mental load. Needs "one arc" thinking, rhythm over speed.
+
+- **T3 La Carrierasse**: The Lap 4 off shows it bites. Needs careful attention.
 
 ---
 
 ## What We Learned
 
-_Pending first session..._
+**Technical:**
+- Underdriving is harder to detect than overdriving. The car feels controlled, but 0.26 G of grip goes unused.
+- La Courmelle (0.02s off Gong) proves the commitment technique exists. Copy-paste to other corners.
+- 6/8 corners improved from P01 to P02. Zero regressions.
+
+**Mental:**
+- "A long way to go to flow" — the driver says this while producing five descending laps. The FEELING of progress lags the REALITY of progress.
+- Trust the compression. The bowl gives grip. Commit before you can see it.
+
+**Strategic:**
+- Gong doesn't brake at Virage du Camion. Lift corner, not a brake corner.
+- ~2.1s addressable through commitment alone. The path is clear.
+- Setup note: BB 53-54% next session (was 57% in P02 = understeer everywhere, LF outside-hot confirms front push).
 
 ---
 
 ## Next Week Preview
 
 **Track**: Oulton Park - International (Week 10)  
-**Dates**: Feb 17 → Feb 23
+**Dates**: Feb 17 → Feb 23  
+**Challenge**: Another rhythm track with elevation. Apply Lédenon lessons.
 
 ---
 
-_Week 09 ready. Time to conquer the French rollercoaster._ 🏎️
+_"The French rollercoaster invited you to dance. Two sessions in, you're already leading."_ 🎢

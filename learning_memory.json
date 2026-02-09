@@ -9,30 +9,30 @@
     "name": "Leon Remondo van Bokhorst",
     "country": "NL",
     "irating_start": 1238,
-    "irating_current": 1683,
-    "irating_change": 445,
+    "irating_current": 1684,
+    "irating_change": 446,
     "license_class": "B",
     "division_current": 8,
-    "division_rank": "P2 Division 8 / P6 Dutch / P131 Overall",
-    "dutch_rank": "P6 of 672 Dutch",
+    "division_rank": "P150 Overall / P5-6 Dutch / Division 8",
+    "dutch_rank": "Beating 720 of 725 Dutch drivers",
     "series": "Formula 1600 Rookie Series",
-    "position_current": 131,
-    "total_drivers": 37508,
-    "position_percentile": "Top 0.35%",
-    "week07_standings": {
-      "starts": 17,
+    "position_current": 150,
+    "total_drivers": 40437,
+    "position_percentile": "Top 0.37%",
+    "week08_standings": {
+      "starts": 20,
       "wins": 2,
-      "win_rate": "12%",
+      "win_rate": "10%",
       "top5s": 11,
-      "top5_rate": "65%",
-      "incidents": 44,
-      "incidents_per_race": 2.59,
-      "points": 540,
-      "avg_finish": 5.0,
+      "top5_rate": "55%",
+      "incidents": 62,
+      "incidents_per_race": 3.1,
+      "points": 590,
+      "avg_finish": 6.0,
       "avg_start": 5.0,
-      "irating_percentile": "90.5%",
-      "points_percentile": "99.7%",
-      "note": "Recovered +16 iR after Week 06 dip. Racing cleaner than Div 1 avg (2.59 vs 3.80)"
+      "irating_percentile": "89.2%",
+      "points_percentile": "99.6%",
+      "note": "Second -35 dip (VIR popular track, SoF 2200+ fields). Skill grew massively (PB -1.234s, 19/21 corners, POLE in AI race) but race results P8/P10/P7. 18 inc in 3 races (6.0/race vs 3.1 avg). One Horseshoe punt cost -34 iR. 90th percentile (1708) only 24 pts away."
     }
   },
   "rivals": [
@@ -44,8 +44,8 @@
       "notes": "Higher volume (11 wins), lower iRating (1581). Beatable with consistency."
     }
   ],
-  "focus": "Week 09 (Circuit de Lédenon): French technical track with elevation changes. Anti-clockwise, 13 corners, blind crests, off-camber entries. Apply VIR lessons: commitment over crests, sequence thinking (not isolated corners), brake point consistency as commitment proxy. Initial focus: map terrain features Day 1, commit to 'one sequence' approach Day 2.",
-  "goal": "Week 09: Apply VIR Roller Coaster commitment lessons to Lédenon's blind crests. Target corners as sequences (3-4 big shapes) not isolated events. Maintain consistency gains. Recover iRating after Week 08 dip (-35). Deploy trust-over-crests methodology from Week 08.",
+  "focus": "Week 09 (Circuit de Lédenon): PB 1:27.600 (was 1:30.350). La cuvette SOLVED (σ 0.497→0.157, trust-over-crests validated). New primary: T7 La servie brake point consistency (σ 36.9m). T1 Triple Gauche multi-apex rhythm = secondary. 6/8 corners solid/dialed. Theoretical optimal 1:27.516 (gap: 0.084s). Next: La servie brake marker, raise floor to consistent 1:27s.",
+  "goal": "Week 09: Lock in T7 La servie brake point (σ < 15m, target ~65% brake pressure). T1 Triple Gauche rhythm over speed. Put together 5-lap runs below 1:28.0 avg. Recover iRating in races. Maintain La cuvette gains. SETUP: Try BB 53-54% next session (was 57% in P02 = understeer everywhere, LF outside-hot 77.7°C vs inside 66.2°C confirms front push). Free time likely sitting in brake bias.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -60,7 +60,8 @@
       "Enjoys humor and sass",
       "Responds well to proper racing coach emotional range (not just cheerleading)",
       "Uses metaphors/parables for deep learning (The Monk, The Forest Path, The Wave)",
-      "Requires 'Systems' over 'Habits' for self-care (Pit Crew Protocol)"
+      "Requires 'Systems' over 'Habits' for self-care (Pit Crew Protocol)",
+      "Always reference corners as 'T# Name' (e.g., 'T14 La cuvette') — bad with names, good with numbers on the map"
     ],
     "personal_context": {
       "music_connection": "Deep emotional connection to music. This is a STRENGTH, not weakness - same sensitivity that feels music also feels the car (grip, weight transfer, feedback). High-resolution nervous system.",
@@ -342,6 +343,15 @@
         "Official Race 02 (Feb 5): P10 (from P8), SoF 2355, -34 iR, -0.14 SR. Got punted at Horseshoe mid-race. Race best 1:30.700 set IMMEDIATELY after incident = mental steel.",
         "Official Race 03 (Feb 5): P7 (from P5), SoF 1910, +1 iR, -0.10 SR. 8x trading paint. 19/21 corners DIALED. Snake brake σ 0.1m maintained. Race best 1:30.717 on L6."
       ]
+    },
+    {
+      "period": "Week 09 - Circuit de Lédenon (In Progress)",
+      "key_achievements": "Baseline PB 1:30.350 on final lap. 5/8 corners DIALED/SOLID on Day 1 (62.5%). Zero incidents. 'Flowy' feeling validated by S2 consistency (σ 0.409s).",
+      "key_lessons": "La cuvette = 'the weird one' (σ 0.497s, blind compression corner). Triple Gauche = multi-apex mind game (σ 0.463s). VIR Roller Coaster commitment principle applies directly to La cuvette. La Courmelle = reference corner (zero oversteer, DIALED).",
+      "stats_summary": "PB: 1:30.350. Gap to optimal: 0.833s. Corners: 5/8 solid+. Steering jerk: 11.91 rad/s² (maintaining Week 08 levels).",
+      "session_highlights": [
+        "Baseline Practice (Feb 5): PB 1:30.350 on Lap 12/12. 5/8 corners DIALED. La cuvette identified as focus area. Master's 'flowy' feeling validated by S2 σ = 0.409s."
+      ]
     }
   ],
   "insights": [
@@ -480,7 +490,10 @@
     "Race Pressure Sharpens Focus (NEW): Week 08 Official Race produced steering smoothness of 10.58 rad/s² - the BEST ever recorded, and it happened in a RACE not practice. Pattern: race pressure creates focus → focus creates commitment → commitment creates smooth inputs. The fear was that racing would 'use up' what was built. The data proves racing makes it stronger.",
     "Showing Up IS the Answer (Week 08 Validated): Season goal was 'just do a whole series season for once. Just show up.' Week 08 Official proved it: P12→P8 while scared, +4 positions, +0.09 SR, -2 iR (basically flat). The question isn't 'will I win?' but 'what happens when I keep showing up?' That's a research question, not a performance demand.",
     "Telemetry as Witness (NEW): When accused of wrongdoing (weaving), telemetry is the objective witness. Race 02 Week 08: driver was accused of 'weaving' after being punted at Horseshoe. Telemetry showed: brake points consistent (34m range = normal race variation), steering jerk CLEAN (13.21 rad/s²), no erratic inputs before contact. The data proved: predictable driving, external contact. Pattern: (1) Check brake point consistency, (2) Check steering smoothness, (3) Check for erratic inputs before incident. Emotions lie, data doesn't.",
-    "Race Best After Incident Pattern (NEW): Week 08 Race 02 set race best (1:30.700) on the lap IMMEDIATELY following a contact incident that cost 8 seconds. This is the same pressure performance pattern as Week 07 (P8→P2 recovery, fastest lap on final lap). Frustration → speed, not frustration → spiral. Mental steel is becoming a defining trait."
+    "Race Best After Incident Pattern (NEW): Week 08 Race 02 set race best (1:30.700) on the lap IMMEDIATELY following a contact incident that cost 8 seconds. This is the same pressure performance pattern as Week 07 (P8→P2 recovery, fastest lap on final lap). Frustration → speed, not frustration → spiral. Mental steel is becoming a defining trait.",
+    "Lédenon La cuvette = VIR Roller Coaster v2 (Week 09): Blind compression corner with 1.8s time variance (5.9s to 7.7s). Brake point σ = 14.7m (not terrible), but corner time σ = 0.497s (lottery). Same pattern as Roller Coaster: the crashes/slow laps happen MID-CORNER from hesitation, not from wrong brake point. The compression GIVES grip when you commit through. 'Trust the bowl' = same principle as 'Eyes exit, commit through.' Master's 'weird' feeling was dead-on — data validated instinct within 11 laps.",
+    "Feel-Data Sync (Week 09 Baseline): Master said 'flowy' → S2 σ = 0.409s (best sector). Master said 'weird last corner' → La cuvette σ = 0.497s (worst corner). Master said 'asks to dance' → 5/8 corners already solid or dialed on Day 1. This is advanced driver development: the nervous system picks up patterns that take 1,000 data samples to confirm. Trust the feel, validate with data. The collaboration is working.",
+    "Gong Comparison Lédenon (Week 09): 4.752s gap. NOT an overdriving problem — it's UNDERDRIVING. Max lat G: 2.56G vs Gong 2.82G (-0.26G untapped). Full throttle 56.3% vs Gong 64.7% (-8.4%). La servie is biggest loss (0.69s) — Master pulls 1.89G, Gong pulls 2.65G (0.76G difference!). Virage du Camion: Gong takes it FLAT, Master brakes 8.7%. La Courmelle: only 0.02s loss = proof commitment works. The pattern: first session caution = not trusting grip. ~2.1s addressable through commitment alone."
   ],
   "research_experiments": [
     {

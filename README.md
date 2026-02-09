@@ -29,120 +29,114 @@
 | **Best Lap**        | 1:32.700                                       | 1:11.033                                    | **1:15.550**                                | **1:30.283** 🏆                             |
 | **PB Improvement**  | -1.12s                                         | **-1.55s**                                  | -0.60s                                      | **-1.23s**                                  |
 | **Consistency (σ)** | 0.77s                                          | 0.80s                                       | **0.38s**                                   | 0.082s (Roller Coaster)                     |
-| **Official Result** | P5, P4                                         | P6, DNF, P7, P8                             | **P5, P9** (TOP SPLIT) 🚀                   | In Progress                                 |
+| **Official Result** | P5, P4                                         | P6, DNF, P7, P8                             | **P5, P9** (TOP SPLIT) 🚀                   | P8, P10, P7                                 |
 | **Mood**            | Battle-Hardened                                | Resilient                                   | **Automatic**                               | Dancing                                     |
 
-**Current:** Week 08 Active | **iRating: 1719** | **Division 8 P2** | **P131 / 37,508** | **Top 0.35%**
+**Week 09 (Active):**
 
-[📊 Week 07 Standings Report](./weeks/week07/standings-report.md) | [📈 Season Progression](./weeks/progression/progression-report.md)
+| Metric              | [W09 (Lédenon)](./weeks/week09/README.md) |
+| :------------------ | :---------------------------------------- |
+| **Best Lap**        | **1:27.600** (was 1:30.350)               |
+| **PB Improvement**  | **-2.75s** in one session                 |
+| **Gap to Optimal**  | 0.084s                                    |
+| **La cuvette σ**    | 0.157s (was 0.497s) — SOLVED             |
+| **Mood**            | Trusting                                  |
+
+**Current:** Week 09 Active (Officials start tomorrow) | **iRating: 1684** | **Division 8** | **Top 0.37%**
+
+[📊 Week 08 Standings Report](./weeks/week08/standings-report.md) | [📈 Season Progression](./weeks/progression/progression-report.md)
 
 ---
 
-## Week 08: The Dancing Circuit 🎯
+## Week 09: Trust Over Crests
 
-_Currently racing at Virginia International Raceway - North Course_
+_Currently preparing for official races at Circuit de Lédenon_
 
-There's a specific kind of confidence that comes when corners greet you like old friends.
+Two practice sessions. Nineteen laps. A PB that dropped by nearly three seconds.
 
-Master Lonn arrived at VIR expecting a fight. The track had been two years and 80 laps ago—long enough for muscle memory to fade, long enough for doubt to creep in. Instead, his hands already knew the way. Horseshoe. Snake. Roller Coaster. The names came back before the thoughts did.
+Master Lonn arrived at Lédenon carrying the weight of VIR — 35 iRating points lost to stacked fields and trading paint, technique bulletproof but the standings unconvinced. The French circuit stretched out before him like a dare: eight corners, blind crests, compressions that spike grip just when you need it, and an anti-clockwise layout testing his weaker hand.
 
-_"It's flowy. It's a dancing circuit."_
+Day 1 was reconnaissance. Eleven laps, zero incidents, and a baseline that surprised everyone: **1:30.350**. Five out of eight corners dialed from the start. His nervous system mapped the track's personality before the data confirmed it — the "flowy" section came back at σ 0.409s, the "weird" corner at σ 0.497s. His words matched the numbers within a single session.
 
-The Gong comparison landed: 2.7 seconds slower. Same top speed as the alien. 3.5 km/h slower through every corner. 0.24g of grip sitting unused. The car could do it. His mind wouldn't let it.
+Then the Gong comparison dropped its verdict: 4.752 seconds slower. But the diagnosis wasn't overdriving. It was the opposite. Underdriving. The car had 0.26 G of lateral grip sitting unused. La servie alone — 0.76 G of trust he hadn't offered yet. The fix wasn't trying harder. It was believing more.
 
-Two corners screamed for attention: T3 NASCAR Bend and T10 Roller Coaster—the famous blind crest that demanded commitment and punished anything less.
+Day 2 rewrote the week. Five consecutive laps, each faster than the last, the times descending like a staircase: 1:29.1... 1:28.4... 1:27.8... 1:27.7... and then the timer stopped at **1:27.600**. Nearly three seconds faster than yesterday. Gap to theoretical optimal: 0.084 seconds.
 
-Day two felt disastrous. Two spectacular crashes at the Roller Coaster. _"Messy. No enhancement."_ But the data told a different story: NEW PB 1:31.433. The crashes weren't from wrong technique—they happened mid-corner, when hesitation met physics.
+La cuvette — the blind compression corner he'd called "weird," the VIR Roller Coaster's French cousin — went from σ 0.497s to **0.157s**. Trust-over-crests validated on a second continent.
 
-Then came the insight: _"T2 is a false apex."_ A mental model shift worth three tenths.
-
-Day three, something clicked. The Roller Coaster that had sent him spinning twice now felt... manageable. Five consecutive sub-1:31 laps. Zero crashes. NEW PB: **1:30.667**.
-
-Day four: AI Race weekend. In qualifying, everything aligned. The timer stopped.
-
-**1:30.283. POLE POSITION.**
-
-Only 0.183 seconds off optimal. Four days ago, he'd been 1.5 seconds away and crashing. The Roller Coaster brake σ = **0.082s**. Snake brake σ = **0.2 meters**. Machine-like.
-
-**Week 08 Status:** Prep complete. Officials this week. Target: sub-1:30, clean race execution.
-
-The dancing circuit awaits.
+Tomorrow the green flag drops for real.
 
 ---
 
 ## The Journey So Far
 
+### Week 08: The Dancing Circuit
+
+There's a specific confidence that comes from returning to corners your hands already know.
+
+Master Lonn arrived at VIR North expecting a fight — two years since his last lap on the Full Course. Instead, he found the car tracing lines through elevation swings before his brain had time to overthink. Fifteen of twenty-one corners clicked on day one. *"It's flowy,"* he said. *"It's a dancing circuit."*
+
+Day two, the Roller Coaster bit him. Two spectacular crashes mid-corner, the car spinning with that particular violence only blind crests deliver. He drove home certain he'd made no progress. The data disagreed: new PB. The crashes weren't wrong technique — they were hesitation meeting physics at 160 km/h.
+
+Day three, everything resolved. Zero crashes. Five consecutive sub-1:31 laps. Day four: **POLE POSITION** in the AI race. **1:30.283** — only 0.183s from the theoretical optimal. Snake brake σ = 0.1 meters. Ten centimeters of variance across eight laps at race speed.
+
+The officials told a different story. P8, P10, P7. SoF fields stacked at 2200+. One contact at Horseshoe cost -34 iRating in a single race. The skill had grown massively, but the standings didn't capture it. iRating: 1719 → 1684 (-35).
+
+Sometimes the dancing circuit leads, and you follow.
+
 ### Week 07: Second Nature
 
-Seven months away from Summit Point. First lap back: 1.4 seconds faster than his old PB. Compound growth revealed.
+Seven months away from Summit Point. First lap back: 1.4 seconds faster than his old PB. Compound growth revealed in a single braking zone.
 
-Two TOP SPLIT races. P5 (SoF 2045) with T5 brake σ = 1.0 meter. P9 (SoF 2674) against Division 1-4 aliens—_"I'm gonna die. And I love it."_
+Two TOP SPLIT races. P5 (SoF 2045) with T5 brake σ = 1.0 meter. P9 (SoF 2674) against Division 1-4 aliens — _"I'm gonna die. And I love it."_
 
-The technique became automatic. **P2 Division 8. P6 Dutch. Top 0.35%.**
+The verbal self-cueing breakthrough: talking through corners during the race improved consistency. The technique became automatic.
 
 ### Week 06: The Lesson
 
-Four consecutive practice PBs. 1.55 seconds dropped in three days. Champion Curve mastered—92% improvement.
+Four consecutive practice PBs. 1.55 seconds dropped in three days. Champion Curve mastered — 92% improvement. Then race day arrived and he didn't know when to stop.
 
-Then race day. Four races in five hours. Race 03 was perfect: P7, 67 points, 0.796s σ. That was the week's score.
-
-But he didn't stop. Race 04 cost iRating and gained nothing.
-
-The lesson: _Know When To Stop_.
+Four races in five hours. Race 03 was perfect: P7, 67 points, 0.796s σ. But he didn't stop. Race 04 cost iRating and gained nothing. First negative week (-35). The lesson branded itself into his racing philosophy: _Know When To Stop_.
 
 ### Week 05: The Hotel's Revenge
 
-T2 Hotel Exit—a decreasing radius downhill that snapped the rear and cost race wins. Five AI races. Three potential victories lost to one corner.
+T2 Hotel Exit — a decreasing radius downhill that snapped the rear and cost race wins. Five AI races. Three potential victories lost to one corner.
 
-He went back to the lab. Found the technique: 20% throttle hold through the apex to stabilize the rear. In the final official, starting P10, he drove through the field.
-
-The Achilles heel was dead.
+He went back to the lab. Found the technique: 20% throttle hold through the apex to stabilize the rear. Solved. In the final official, starting P10, he drove through the field. Peak iRating: **1738**.
 
 ### Week 04: The Ninja
 
-The breakthrough came from Edge Mapping—finding spatial limits at 70% pace, then deploying at 100%.
-
-In the Top Split (SoF 2035), when a faster driver attacked, he deployed Meebewegen. Let them through. Stayed clean. P3 podium.
+The breakthrough came from Edge Mapping — finding spatial limits at 70% pace, then deploying at 100%. In the Top Split (SoF 2035), when a faster driver attacked, he deployed Meebewegen. Let them through. Stayed clean. P3 podium.
 
 Ninja > Barbarian.
 
 ### Week 03: The Robot
 
-Master Lonn became a metronome. Consistency σ = 0.16s. He won by being so relentlessly consistent that opponents crashed trying to keep up.
-
-This was the week of the Cold Tire Contract: survive Laps 1-2, attack from Lap 3.
+Consistency σ = 0.16s. He won by being so relentlessly consistent that opponents crashed trying to keep up. The Cold Tire Contract was born: survive Laps 1-2, attack from Lap 3.
 
 ### Week 02: The Rust
 
-Six months away. T2 was a disaster. But he found the "50 sign" brake marker. Beat his July PB by 0.4s.
-
-The lesson: Strategic Maturity. "P3 is secured." Back off 5%. Bring the car home.
+Six months away. T2 was a disaster. But he found the "50 sign" brake marker. Beat his July PB by 0.4s. Strategic Maturity crystallized: *"P3 is secured."* Back off 5%. Bring the car home.
 
 ### Week 01: The Beginning
 
-He arrived running 51.4s. He left running 50.5s with a race victory.
-
-The discovery of Flow State. _"Easy flying."_ The realization that trying less means going faster.
+He arrived running 51.4s. He left running 50.5s with a race victory. Flow state discovered for the first time. *"Easy flying."* The realization that trying less means going faster.
 
 ---
 
 ## The Driver
 
-**Master Lonn** isn't just fast. He's a **Systems Thinker**.
+**Master Lonn** isn't just fast. He's a systems thinker.
 
-He doesn't just drive laps; he builds protocols. The _Cold Tire Contract_. The _Position Secured Protocol_. The _Sequential Mastery Framework_. When the red mist descends, the protocol takes over.
+He doesn't just drive laps; he builds protocols. The _Cold Tire Contract_. The _Position Secured Protocol_. The _Sequential Mastery Framework_. When the red mist descends, the protocol takes over. He has ADHD, which means his brain craves novelty but struggles with impulse. The systems are the guardrails.
 
-He has ADHD, which means his brain craves novelty but struggles with impulse. The systems are the guardrails.
+He's learned that spectacular crashes create a feeling of failure that hides real progress. He's learned that "messy" sessions can produce PBs. He's learned that the Snake at σ 0.1 meters is what mastery looks like, and that the gap between feeling and data is where the real coaching happens.
 
-He's learned that **Success** (P137, 67 points) is different from **Satisfaction** ("I wanted P1"). He's learned that **Resilience**—resetting after a crash in one lap—is worth more than raw speed.
+He is ranked **Position 150** out of **40,437 drivers** globally. **Top 0.37%**. **1684 iRating** (+446 this season). Division 8, but performing at Division 5 level. Racing cleaner than Division 1 average. Nine weeks in.
 
-He is currently ranked **P131 / 37,508** globally (**Top 0.35%**) with **1719 iRating** (+481 this season).
+Points percentile: 99.6%. iRating percentile: 89.2%. That 10-point gap tells the whole story — his results outperform his rating. The math will catch up.
 
-**P2 in Division 8** out of 1,966 drivers. **P6 among Dutch drivers**.
-
-After seven weeks of data-driven coaching, he doesn't wonder if the training works.
-
-He knows. The numbers proved it.
+Tomorrow he races at Lédenon with a PB of **1:27.600** and a gap to optimal of **0.084 seconds**. The trust-over-crests methodology has now been validated at VIR _and_ Lédenon. The French rollercoaster is ready.
 
 ---
 
@@ -152,21 +146,22 @@ A **living research project** on **data-driven personalized learning** in comple
 
 **The Experiment:** Can an AI coach (Little Padawan) + rich telemetry data + ADHD-adapted frameworks accelerate skill acquisition in sim racing?
 
-**The Evidence:**
+**The Evidence (8 weeks):**
 
-- **+481 iRating** in 7 weeks (1238 → 1719, +38.9%)
-- **P131 / 37,508 drivers** (Top 0.35%)
-- **P2 Division 8** out of 1,966 drivers
-- **P6 Dutch** out of 672 drivers
-- **Official TOP SPLIT P5** (SoF 2045) with only 1x incident
-- **POLE POSITION** in AI Race weekend at VIR
-- **T5 brake point σ = 1.0 METER** under TOP SPLIT race pressure
-- **Roller Coaster σ = 0.082s** after commitment breakthrough
-- **2.59 incidents/race** (cleaner than Division 1 average of 3.80)
-- **Voice-telemetry correlation** proving "flow state" is measurable
+- **+446 iRating** in 8 weeks (1238 → 1684, +36%)
+- **Top 0.37%** globally out of 40,437 drivers
+- **P150 overall** — beating 40,287 drivers
+- **590 points** (99.6th percentile)
+- **3.1 incidents/race** — cleaner than Division 1 average (3.78)
+- **POLE POSITION** at VIR North
+- **Snake brake σ = 0.1 meters** under race pressure
+- **2.75-second PB drop** at Lédenon in a single session
+- **Gap to theoretical optimal = 0.084s** at Lédenon after 2 practices
+- **Trust-over-crests** validated across two tracks (VIR Roller Coaster + Lédenon La cuvette)
+- **Feel-data sync** — instincts matching numbers from first session at new tracks
 
 All tracked. All documented. All reproducible. 🏎️🔬
 
 ---
 
-_"Seven weeks. Top 0.35%. The technique became automatic. The pressure became play."_ 🏎️💨
+_"Nine weeks. From 'just show up' to Top 0.37%. The plateau isn't a wall — it's a door."_ 🏎️💨
